@@ -1,0 +1,53 @@
+{
+    "Thửa đất số": [
+	    ["Thửa đất số", "tờ bản đồ số"]
+	],
+    "Tờ bản đồ số": [
+	    ["tờ bản đồ số", "b Địa chỉ"],
+	    ["tờ bản đồ số", "Địa chỉ"]
+	],
+    "Địa chỉ": [
+	    ["Địa chỉ", "c Diện tích"],
+	    ["Địa chỉ", "Diện tích"]
+	],
+    "Diện tích": [
+	    ["Diện tích", "bằng chữ"]
+	],
+    "Mục đích sử dụng": [
+	    ["Mục đích sử dụng", "e Thời hạn sử dụng"],
+	    ["Mục đích sử dụng", "Thời hạn sử dụng"]
+	],
+    "Hình thức sử dụng": [
+	    ["Hình thức sử dụng", "đ Mục đích sử dụng"],
+	    ["Hình thức sử dụng", "Mục đích sử dụng"]
+        ],
+    "Thời hạn sử dụng": [
+	    ["Thời hạn sử dụng", "g Nguồn gốc sử dụng"],
+	    ["Thời hạn sử dụng", "Nguồn gốc sử dụng"]
+        ],
+    "Nguồn gốc sử dụng": [
+	    ["Nguồn gốc sử dụng", "2. Nhà ở"],
+	    ["Nguồn gốc sử dụng", "Nhà ở"]
+    	],
+    "Diện tích xây dựng": [
+    	    ["Diện tích xây dựng", "c Diện tích sàn"],
+	    ["Diện tích xây dựng", "Diện tích sàn"]
+    	],
+    "Diện tích sàn": [
+	    ["Diện tích sàn", "d Hình thức sở hữu"],
+	    ["Diện tích sàn", "Hình thức sở hữu"]
+    	],
+    "Cấp (Hạng)": [
+    	    ["Cấp (Hạng)", "e Thời hạn sở hữu"],
+	    ["Cấp (Hạng)", "Thời hạn sở hữu"],
+	    ["Cấp", "e Thời hạn sở hữu"],
+	    ["Cấp", "Thời hạn sở hữu"]
+    	],
+    "Thời hạn sở hữu": [
+	    ["Thời hạn sở hữu", "3 Công trình xây dựng khác"],
+	    ["Thời hạn sở hữu", "Công trình xây dựng khác"]
+    	],
+	"Ghi chú": [
+		["6 Ghi chú", "EOF"]
+	]
+}

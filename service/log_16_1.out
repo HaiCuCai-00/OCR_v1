@@ -1,0 +1,375 @@
+INFO:     Started server process [42835]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:18083 (Press CTRL+C to quit)
+INFO:     123.24.206.26:44726 - "GET /docs HTTP/1.1" 200 OK
+INFO:     123.24.206.26:44726 - "GET /openapi.json HTTP/1.1" 200 OK
+--------------------------------
+string
+INFO:     123.24.206.26:45060 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccd
+res: {'id': '001093005551', 'Họ và tên': 'NGUYỄN TIÊN TÚ', 'Ngày, tháng, năm sinh': '13/07/1993', 'Giới tính': 'Nam', 'Quốc tịch': 'Việt Nam', 'Quê quán': 'Xuân Phú, Phúc Thọ, Hà Nội', 'Nơi thường trú': 'Ân Phú, Xuân Phú, Phúc Thọ Hà Nội', 'Có giá trị đến': '1307/2033'}
+temp: {'id_card': '001093005551', 'name': 'NGUYỄN TIÊN TÚ', 'dob': '13/07/1993', 'sex': 'Nam', 'nationality': 'Việt Nam', 'poo': 'Xuân Phú, Phúc Thọ, Hà Nội', 'por': 'Ân Phú, Xuân Phú, Phúc Thọ Hà Nội', 'doe': '1307/2033'}
+out: {'additionalProp1': {'id_card': '001093005551', 'name': 'NGUYỄN TIÊN TÚ', 'dob': '13/07/1993', 'sex': 'Nam', 'nationality': 'Việt Nam', 'poo': 'Xuân Phú, Phúc Thọ, Hà Nội', 'por': 'Ân Phú, Xuân Phú, Phúc Thọ Hà Nội', 'doe': '1307/2033'}}
+INFO:     123.24.206.26:42307 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:36438 - "POST /detection HTTP/1.1" 422 Unprocessable Entity
+--------------------------------
+cccd
+res: {'id': '001093005551', 'Họ và tên': 'NGUYỄN TIÊN TÚ', 'Ngày, tháng, năm sinh': '13/07/1993', 'Giới tính': 'Nam', 'Quốc tịch': 'Việt Nam', 'Quê quán': 'Xuân Phú, Phúc Thọ, Hà Nội', 'Nơi thường trú': 'Ân Phú, Xuân Phú, Phúc Thọ Hà Nội', 'Có giá trị đến': '1307/2033'}
+temp: {'id_card': '001093005551', 'name': 'NGUYỄN TIÊN TÚ', 'dob': '13/07/1993', 'sex': 'Nam', 'nationality': 'Việt Nam', 'poo': 'Xuân Phú, Phúc Thọ, Hà Nội', 'por': 'Ân Phú, Xuân Phú, Phúc Thọ Hà Nội', 'doe': '1307/2033'}
+out: {'additionalProp1': {'id_card': '001093005551', 'name': 'NGUYỄN TIÊN TÚ', 'dob': '13/07/1993', 'sex': 'Nam', 'nationality': 'Việt Nam', 'poo': 'Xuân Phú, Phúc Thọ, Hà Nội', 'por': 'Ân Phú, Xuân Phú, Phúc Thọ Hà Nội', 'doe': '1307/2033'}}
+INFO:     123.24.206.26:50786 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:39656 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cccd
+INFO:     123.24.206.26:54806 - "POST /detection HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/fastapi/routing.py", line 227, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/fastapi/routing.py", line 159, in run_endpoint_function
+    return await dependant.call(**values)
+  File "main_OCR_H.py", line 149, in predict_api
+    res = pipeline.startA(img, type, "../output")
+  File "../tools/run.py", line 84, in startA
+    img = self.remove_unnecessary_part(type, img)
+  File "../modules/pre_processing/remove_unnecessary_part.py", line 15, in __call__
+    h, w, c = img.shape
+ValueError: not enough values to unpack (expected 3, got 2)
+--------------------------------
+cccd
+INFO:     123.24.206.26:34931 - "POST /detection HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/fastapi/routing.py", line 227, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/fastapi/routing.py", line 159, in run_endpoint_function
+    return await dependant.call(**values)
+  File "main_OCR_H.py", line 149, in predict_api
+    res = pipeline.startA(img, type, "../output")
+  File "../tools/run.py", line 84, in startA
+    img = self.remove_unnecessary_part(type, img)
+  File "../modules/pre_processing/remove_unnecessary_part.py", line 15, in __call__
+    h, w, c = img.shape
+ValueError: not enough values to unpack (expected 3, got 2)
+INFO:     123.24.206.26:61104 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': '', 'Họ tên': 'thông tư Hướng dân chi bình một số điều của Luật Quân lý thai và Nghị định số', 'Sinh ngày': '126/202WND-Cr ngày 19 tháng 10 miền 5020 của Chính phủ quy định chỉ tiết một số điều của Luật Quân lý thuổ', 'Nguyên quán': 'Cấn cứ Luật Quản lý thuế ngày 13 chúng 6 năm 2019 Căn cử Luật Ngân sách nhà nước ngày 25 tháng 6 năm 2015', 'Nơi ĐKHK thường trú': 'Căn cứ các Luật, Pháp lệnh, Nghị định về chuế, phí, tế phí và các khoản tâu'}
+temp: {'id_card': '', 'name': 'thông tư Hướng dân chi bình một số điều của Luật Quân lý thai và Nghị định số', 'dob': '126/202WND-Cr ngày 19 tháng 10 miền 5020 của Chính phủ quy định chỉ tiết một số điều của Luật Quân lý thuổ', 'poo': 'Cấn cứ Luật Quản lý thuế ngày 13 chúng 6 năm 2019 Căn cử Luật Ngân sách nhà nước ngày 25 tháng 6 năm 2015', 'por': 'Căn cứ các Luật, Pháp lệnh, Nghị định về chuế, phí, tế phí và các khoản tâu'}
+out: {'data': {'id_card': '', 'name': 'thông tư Hướng dân chi bình một số điều của Luật Quân lý thai và Nghị định số', 'dob': '126/202WND-Cr ngày 19 tháng 10 miền 5020 của Chính phủ quy định chỉ tiết một số điều của Luật Quân lý thuổ', 'poo': 'Cấn cứ Luật Quản lý thuế ngày 13 chúng 6 năm 2019 Căn cử Luật Ngân sách nhà nước ngày 25 tháng 6 năm 2015', 'por': 'Căn cứ các Luật, Pháp lệnh, Nghị định về chuế, phí, tế phí và các khoản tâu'}}
+INFO:     123.24.206.26:50667 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccd
+res: {'id': '', 'Họ và tên': 'thông tư Hướng dân chi bình một số điều của Luật Quân lý thai và Nghị định số', 'Ngày, tháng, năm sinh': '126/202WND-Cr ngày 19 tháng 10 miền 5020 của Chính phủ quy định chỉ', 'Giới tính': 'tiết một số điều của Luật Quân lý thuổ', 'Quốc tịch': '', 'Quê quán': 'Cấn cứ Luật Quản lý thuế ngày 13 chúng 6 năm 2019', 'Nơi thường trú': 'Căn cử Luật Ngân sách nhà nước ngày 25 tháng 6 năm 2015 Căn cứ các Luật, Pháp lệnh, Nghị định về chuế, phí, tế phí và các khoản tâu', 'Có giá trị đến': 'Khác muộc ngôn cách nhà mới'}
+temp: {'id_card': '', 'name': 'thông tư Hướng dân chi bình một số điều của Luật Quân lý thai và Nghị định số', 'dob': '126/202WND-Cr ngày 19 tháng 10 miền 5020 của Chính phủ quy định chỉ', 'sex': 'tiết một số điều của Luật Quân lý thuổ', 'nationality': '', 'poo': 'Cấn cứ Luật Quản lý thuế ngày 13 chúng 6 năm 2019', 'por': 'Căn cử Luật Ngân sách nhà nước ngày 25 tháng 6 năm 2015 Căn cứ các Luật, Pháp lệnh, Nghị định về chuế, phí, tế phí và các khoản tâu', 'doe': 'Khác muộc ngôn cách nhà mới'}
+out: {'data': {'id_card': '', 'name': 'thông tư Hướng dân chi bình một số điều của Luật Quân lý thai và Nghị định số', 'dob': '126/202WND-Cr ngày 19 tháng 10 miền 5020 của Chính phủ quy định chỉ', 'sex': 'tiết một số điều của Luật Quân lý thuổ', 'nationality': '', 'poo': 'Cấn cứ Luật Quản lý thuế ngày 13 chúng 6 năm 2019', 'por': 'Căn cử Luật Ngân sách nhà nước ngày 25 tháng 6 năm 2015 Căn cứ các Luật, Pháp lệnh, Nghị định về chuế, phí, tế phí và các khoản tâu', 'doe': 'Khác muộc ngôn cách nhà mới'}}
+INFO:     123.24.206.26:53493 - "POST /detection HTTP/1.1" 200 OK
+INFO:     66.249.65.126:63790 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     66.249.65.124:45903 - "HEAD /detection HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     66.249.70.188:36559 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     66.249.71.158:41724 - "HEAD /detection HTTP/1.1" 405 Method Not Allowed
+INFO:     123.24.206.26:34719 - "OPTIONS /detection1 HTTP/1.1" 200 OK
+INFO:     123.24.206.26:42736 - "POST /detection1 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/fastapi/routing.py", line 227, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/fastapi/routing.py", line 159, in run_endpoint_function
+    return await dependant.call(**values)
+  File "main_OCR_H.py", line 202, in predict_api
+    res = pipeline.startC(img, type, "../output")
+  File "../tools/run.py", line 206, in startC
+    img = self.remove_unnecessary_part(type, img)
+  File "../modules/pre_processing/remove_unnecessary_part.py", line 15, in __call__
+    h, w, c = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+INFO:     123.24.206.26:37356 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': 'mmin 184462629', 'Họ tên': 'NGUYỄN THÙY TRANG', 'Sinh ngày': '26 09-2002', 'Nguyên quán': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'Nơi ĐKHK thường trú': 'Phúc Đồng Hương Khê, Hà Tĩnh'}
+temp: {'id_card': 'mmin 184462629', 'name': 'NGUYỄN THÙY TRANG', 'dob': '26 09-2002', 'poo': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'por': 'Phúc Đồng Hương Khê, Hà Tĩnh'}
+out: {'data': {'id_card': 'mmin 184462629', 'name': 'NGUYỄN THÙY TRANG', 'dob': '26 09-2002', 'poo': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'por': 'Phúc Đồng Hương Khê, Hà Tĩnh'}}
+INFO:     123.24.206.26:50675 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:57254 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': 'mmin 184462629', 'Họ tên': 'NGUYỄN THÙY TRANG', 'Sinh ngày': '26 09-2002', 'Nguyên quán': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'Nơi ĐKHK thường trú': 'Phúc Đồng Hương Khê, Hà Tĩnh'}
+temp: {'id_card': 'mmin 184462629', 'name': 'NGUYỄN THÙY TRANG', 'dob': '26 09-2002', 'poo': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'por': 'Phúc Đồng Hương Khê, Hà Tĩnh'}
+out: {'data': {'id_card': 'mmin 184462629', 'name': 'NGUYỄN THÙY TRANG', 'dob': '26 09-2002', 'poo': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'por': 'Phúc Đồng Hương Khê, Hà Tĩnh'}}
+INFO:     123.24.206.26:57948 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+
+INFO:     123.24.206.26:64385 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'Dân tộc': 'Kinh', 'Tôn giáo': 'Không', 'Dấu vết riêng và dị hình': 'Sẹo chấm c.2cm dưới sau mép phải', 'Ngày làm CMND': 'Ngày...03.. tháng...06.năm..2016', 'Giám đốc CA': 'Tỉnh Bắc Ninh'}
+temp: {'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}
+out: {'data': {'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:64334 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:35931 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+abt
+res: ['03610001960', '036100000000', 'Khẩu trong', 'a', 'tê', '"ở Vì diệu nửa tay, Phoncovg"" đất"', 'tại cả gồm, học chiết, như chúng giặc, và anh cổng', 'bất cả cùng', 'đồng trở trị chúng thiết như chếm', 'nhất là', 'Phạm người đến điệm trình ma (Trường đó', 'như vửa qua giống', '1 hưng, miềm vù xuân mới, nhưng con người thồm lặng, nơi đây', 'Rồi đây, mối ngày em một', 'vẫn tiếp tục cuộc chiến tới cũng', 'không chộng mại còn hóa cho những cập chống cổng cổng cổ ". người, mà trước', 'bão giông. Tất cả bắt đầu từ ngày', 'Yêu om thật nhiều?']
+temp: {'text': ['03610001960', '036100000000', 'Khẩu trong', 'a', 'tê', '"ở Vì diệu nửa tay, Phoncovg"" đất"', 'tại cả gồm, học chiết, như chúng giặc, và anh cổng', 'bất cả cùng', 'đồng trở trị chúng thiết như chếm', 'nhất là', 'Phạm người đến điệm trình ma (Trường đó', 'như vửa qua giống', '1 hưng, miềm vù xuân mới, nhưng con người thồm lặng, nơi đây', 'Rồi đây, mối ngày em một', 'vẫn tiếp tục cuộc chiến tới cũng', 'không chộng mại còn hóa cho những cập chống cổng cổng cổ ". người, mà trước', 'bão giông. Tất cả bắt đầu từ ngày', 'Yêu om thật nhiều?']}
+out: {'data': {'text': ['03610001960', '036100000000', 'Khẩu trong', 'a', 'tê', '"ở Vì diệu nửa tay, Phoncovg"" đất"', 'tại cả gồm, học chiết, như chúng giặc, và anh cổng', 'bất cả cùng', 'đồng trở trị chúng thiết như chếm', 'nhất là', 'Phạm người đến điệm trình ma (Trường đó', 'như vửa qua giống', '1 hưng, miềm vù xuân mới, nhưng con người thồm lặng, nơi đây', 'Rồi đây, mối ngày em một', 'vẫn tiếp tục cuộc chiến tới cũng', 'không chộng mại còn hóa cho những cập chống cổng cổng cổ ". người, mà trước', 'bão giông. Tất cả bắt đầu từ ngày', 'Yêu om thật nhiều?']}}
+INFO:     123.24.206.26:44852 - "POST /detection HTTP/1.1" 200 OK
+INFO:     66.249.68.33:51819 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     66.249.68.62:63322 - "HEAD /detection HTTP/1.1" 405 Method Not Allowed
+INFO:     113.178.36.243:62347 - "GET /docs HTTP/1.1" 200 OK
+../modules/ocr/text_classifier.py:122: RuntimeWarning: invalid value encountered in true_divide
+  char_probs = np.sum(char_probs, axis=-1) / (char_probs > 0).sum(-1)
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     162.142.125.9:45662 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.142.125.9:35572 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+INFO:     162.142.125.10:41400 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+INFO:     66.249.69.92:49840 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     66.249.69.92:63422 - "HEAD /detection HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     202.95.12.108:41818 - "GET / HTTP/1.1" 404 Not Found
+INFO:     202.95.12.108:43272 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     202.95.12.108:44498 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     202.95.12.108:45042 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     167.248.133.120:58106 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     113.178.35.6:61282 - "GET /docs HTTP/1.1" 200 OK
+INFO:     113.178.35.6:61282 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     113.178.35.6:58738 - "GET /docs HTTP/1.1" 200 OK
+INFO:     113.178.35.6:58738 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     162.142.125.10:36288 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+INFO:     167.94.138.60:40404 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     123.160.221.17:52010 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.36.231:39190 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.34.187:20886 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.116.89:43108 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.55.120:40822 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.33.65:28806 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.122.184:43716 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.122.184:43692 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.36.231:39190 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.122.184:44474 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.122.184:43716 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.122.184:43692 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.34.187:20886 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:54646 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.55.120:40822 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.122.184:44474 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.33.65:28806 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.116.89:43108 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:54646 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.49.169:36056 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.49.169:36056 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.55.120:39166 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.36.112:38104 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.41.193:17690 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.55.120:39166 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.41.193:17690 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.36.112:38104 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.122.184:10850 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.33.65:54410 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:41714 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.55.120:47404 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.33.65:54410 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.116.89:32158 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.122.184:10850 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.36.231:50528 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.36.112:27466 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:43330 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.55.120:47404 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:41714 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.36.231:50528 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.33.65:56604 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.121.69:28160 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.33.65:56604 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.35.128:10400 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:43330 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.116.89:32158 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.36.112:27466 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.121.69:28160 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.35.128:10400 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     167.248.133.119:43844 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+INFO:     66.249.71.188:58255 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     66.249.71.190:59120 - "HEAD /detection HTTP/1.1" 405 Method Not Allowed
+INFO:     123.24.206.26:59036 - "POST /detection HTTP/1.1" 422 Unprocessable Entity
+INFO:     167.248.133.120:49644 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+INFO:     66.249.72.5:57350 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     66.249.72.1:63025 - "HEAD /detection HTTP/1.1" 405 Method Not Allowed
+INFO:     167.248.133.46:50176 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/envs/OCR_client/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade

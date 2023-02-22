@@ -1,0 +1,393 @@
+INFO:     Started server process [809559]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:18083 (Press CTRL+C to quit)
+--------------------------------
+cmnd
+res: {'id': '145064321', 'Họ tên': 'NGUYỄN BẢO NGỌC', 'Sinh ngày': '07-09-1983', 'Nguyên quán': 'Bình Minh Khoái Châu, Hưng Yên', 'Nơi ĐKHK thường trú': 'Bình Minh Khoái Châu, Hưng Yên'}
+--------------------------------
+cmnd
+res: {'Dân tộc': 'Kinh', 'Tôn giáo': 'Không', 'Dấu vết riêng và dị hình': 'Sẹo chấm c.2cm dưới sau mép phải', 'Ngày làm CMND': 'Ngày...03.. tháng...06.năm..2016', 'Giám đốc CA': 'Tỉnh Bắc Ninh'}
+temp: {}
+out: {'additionalProp1': {'name': 'NGUYỄN BẢO NGỌC', 'id_card': '145064321', 'dob': '07-09-1983', 'poo': 'Bình Minh Khoái Châu, Hưng Yên', 'por': 'Bình Minh Khoái Châu, Hưng Yên', 'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:33841 - "POST /detection HTTP/1.1" 200 OK
+INFO:     192.168.10.144:54577 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+--------------------------------
+cccc
+ 
+res: NOT FOUND
+temp: {}
+out: {'additionalProp1': {'name': 'VŨ ĐỨC THẮNG', 'id_card': '010200003218', 'dob': '18/09/2000', 'sex': 'Nam', 'nationality': 'Việt Nam', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025', 'pi': 'dac diem nhan dang', 'dop': 'ngay cap cmt/cccd'}}
+INFO:     192.168.10.144:52247 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+--------------------------------
+cccc
+ 
+res: NOT FOUND
+temp: {}
+out: {'additionalProp1': {'name': 'VŨ ĐỨC THẮNG', 'id_card': '010200003218', 'dob': '18/09/2000', 'sex': 'Nam', 'nationality': 'Việt Nam', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025', 'pi': 'dac diem nhan dang', 'dop': 'ngay cap cmt/cccd'}}
+INFO:     192.168.10.144:63771 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+temp: {}
+out: {'additionalProp1': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}}
+INFO:     192.168.10.144:51408 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+temp: {}
+out: {'additionalProp1': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}}
+INFO:     192.168.10.144:51425 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+--------------------------------
+cccc
+ 
+res: {'Đặc điểm nhận dạng / Personal identification': 'Nốt ruổi C 4 cm trên trước mép phải', 'Ngày, tháng, năm / Date, month, year': '23/03/2022', 'Địa điểm làm CMND': 'CỤC TRƯỞNG CỤC CẢNH SÁT QUẢN LÝ HÀNH CHÍNH VỀ TRẬT TỰ XÃ HỘI DIRECTOR GENERAL OF THE POLICE DEPARTMENT'}
+temp: {}
+out: {'additionalProp1': {'name': 'VŨ ĐỨC THẮNG', 'id_card': '010200003218', 'dob': '18/09/2000', 'sex': 'Nam', 'nationality': 'Việt Nam', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025', 'pi': 'Nốt ruổi C 4 cm trên trước mép phải', 'dop': '23/03/2022'}}
+INFO:     192.168.10.144:53944 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': 'mmin 184462629', 'Họ tên': 'NGUYỄN THÙY TRANG', 'Sinh ngày': '26 09-2002', 'Nguyên quán': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'Nơi ĐKHK thường trú': 'Phúc Đồng Hương Khê, Hà Tĩnh'}
+temp: {}
+out: {'additionalProp1': {'id_card': 'mmin 184462629', 'name': 'NGUYỄN THÙY TRANG', 'dob': '26 09-2002', 'poo': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'por': 'Phúc Đồng Hương Khê, Hà Tĩnh'}}
+INFO:     123.24.206.26:43541 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:62821 - "GET /docs HTTP/1.1" 200 OK
+INFO:     123.24.206.26:62821 - "GET /openapi.json HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': '125887788', 'Họ tên': 'NGUYỄN THANH TÙNG', 'Sinh ngày': '25-04-2000', 'Nguyên quán': 'Xã Nhân Thắng Huyện Gia Bình, Bắc Ninh', 'Nơi ĐKHK thường trú': 'Xã Nhân Thăng Huyện Gia Bình, Bắc Ninh'}
+--------------------------------
+cmnd
+res: NOT FOUND
+temp: {}
+out: {'additionalProp1': {'name': 'NGUYỄN THANH TÙNG', 'id_card': '125887788', 'dob': '25-04-2000', 'poo': 'Xã Nhân Thắng Huyện Gia Bình, Bắc Ninh', 'por': 'Xã Nhân Thăng Huyện Gia Bình, Bắc Ninh', 'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:52572 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:59832 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': '1184462629', 'Họ tên': 'NGUYỄN THÙY TRANG', 'Sinh ngày': '', 'Nguyên quán': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'Nơi ĐKHK thường trú': 'Phúc Đồng Hương Khê, Hà Tĩnh'}
+temp: {}
+out: {'data': {'id_card': '1184462629', 'name': 'NGUYỄN THÙY TRANG', 'dob': '', 'poo': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'por': 'Phúc Đồng Hương Khê, Hà Tĩnh'}}
+INFO:     123.24.206.26:56763 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'Dân tộc': 'Kinh', 'Tôn giáo': 'Không', 'Dấu vết riêng và dị hình': 'Sẹo chấm c.2cm dưới sau mép phải', 'Ngày làm CMND': 'Ngày...03.. tháng...06.năm..2016', 'Giám đốc CA': 'Tỉnh Bắc Ninh'}
+temp: {}
+out: {'data': {'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:60918 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': 'mmin 184462629', 'Họ tên': 'NGUYỄN THÙY TRANG', 'Sinh ngày': '26 09-2002', 'Nguyên quán': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'Nơi ĐKHK thường trú': 'Phúc Đồng Hương Khê, Hà Tĩnh'}
+temp: {}
+out: {'data': {'id_card': 'mmin 184462629', 'name': 'NGUYỄN THÙY TRANG', 'dob': '26 09-2002', 'poo': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'por': 'Phúc Đồng Hương Khê, Hà Tĩnh'}}
+INFO:     123.24.206.26:62444 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'Dân tộc': 'Kinh', 'Tôn giáo': 'Không', 'Dấu vết riêng và dị hình': 'Sẹo chấm c.2cm dưới sau mép phải', 'Ngày làm CMND': 'Ngày...03.. tháng...06.năm..2016', 'Giám đốc CA': 'Tỉnh Bắc Ninh'}
+temp: {}
+out: {'data': {'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:53855 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': '7461866666', 'Họ tên': 'NGUYỄN HỒNG ANH', 'Sinh ngày': '21-05-1995', 'Nguyên quán': 'Phu Lãm Ha Đông, Ha Nội', 'Nơi ĐKHK thường trú': 'Phu Lâm Ha Đông, Hà Nội'}
+temp: {}
+out: {'data': {'id_card': '7461866666', 'name': 'NGUYỄN HỒNG ANH', 'dob': '21-05-1995', 'poo': 'Phu Lãm Ha Đông, Ha Nội', 'por': 'Phu Lâm Ha Đông, Hà Nội'}}
+INFO:     123.24.206.26:49463 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': '281300735', 'Họ tên': 'LÊ VĂN BẢO TRONG', 'Sinh ngày': '24-12-2002', 'Nguyên quán': 'Thưa Thiên - Huế', 'Nơi ĐKHK thường trú': 'Phú Cường TP Thủ Dầu Một, Bình Dương'}
+temp: {}
+out: {'data': {'id_card': '281300735', 'name': 'LÊ VĂN BẢO TRONG', 'dob': '24-12-2002', 'poo': 'Thưa Thiên - Huế', 'por': 'Phú Cường TP Thủ Dầu Một, Bình Dương'}}
+INFO:     123.24.206.26:55937 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': '', 'Giới tính / Sex': 'Khoái, Châu, Hưng Yên', 'Số / No': '07-09-1983 Bình Minh', 'Quê quán / Place of origin': '', 'Ngày sinh / Date of birth': 'Bình Minh', 'Họ và tên / Full name': 'Khoái Châu, Hưng Yên', 'Nơi thường trú / Place of residence': '', 'Có giá trị đến / Date of expiry': ''}
+temp: {}
+out: {'additionalProp1': {'nationality': '', 'sex': 'Khoái, Châu, Hưng Yên', 'id_card': '07-09-1983 Bình Minh', 'poo': '', 'dob': 'Bình Minh', 'name': 'Khoái Châu, Hưng Yên', 'por': '', 'doe': ''}}
+INFO:     192.168.10.144:53366 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:52639 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': '145064321', 'Họ tên': 'NGUYỄN BẢO NGỌC', 'Sinh ngày': '07-09-1983', 'Nguyên quán': 'Bình Minh Khoái Châu, Hưng Yên', 'Nơi ĐKHK thường trú': 'Bình Minh Khoái Châu, Hưng Yên'}
+temp: {}
+out: {'data': {'id_card': '145064321', 'name': 'NGUYỄN BẢO NGỌC', 'dob': '07-09-1983', 'poo': 'Bình Minh Khoái Châu, Hưng Yên', 'por': 'Bình Minh Khoái Châu, Hưng Yên'}}
+INFO:     123.24.206.26:59989 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': '', 'Giới tính / Sex': 'Khoái, Châu, Hưng Yên', 'Số / No': '07-09-1983 Bình Minh', 'Quê quán / Place of origin': '', 'Ngày sinh / Date of birth': 'Bình Minh', 'Họ và tên / Full name': 'Khoái Châu, Hưng Yên', 'Nơi thường trú / Place of residence': '', 'Có giá trị đến / Date of expiry': ''}
+temp: {}
+out: {'additionalProp1': {'nationality': '', 'sex': 'Khoái, Châu, Hưng Yên', 'id_card': '07-09-1983 Bình Minh', 'poo': '', 'dob': 'Bình Minh', 'name': 'Khoái Châu, Hưng Yên', 'por': '', 'doe': ''}}
+INFO:     192.168.10.144:49514 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'Dân tộc': 'Kinh', 'Tôn giáo': 'Không', 'Dấu vết riêng và dị hình': 'Sẹo chấm c.2cm dưới sau mép phải', 'Ngày làm CMND': 'Ngày...03.. tháng...06.năm..2016', 'Giám đốc CA': 'Tỉnh Bắc Ninh'}
+temp: {}
+out: {'data': {'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:61694 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': '145064321', 'Họ tên': 'NGUYỄN BẢO NGỌC', 'Sinh ngày': '07-09-1983', 'Nguyên quán': 'Bình Minh Khoái Châu, Hưng Yên', 'Nơi ĐKHK thường trú': 'Bình Minh Khoái, Châu, Hưng Yên'}
+temp: {}
+out: {'additionalProp1': {'id_card': '145064321', 'name': 'NGUYỄN BẢO NGỌC', 'dob': '07-09-1983', 'poo': 'Bình Minh Khoái Châu, Hưng Yên', 'por': 'Bình Minh Khoái, Châu, Hưng Yên'}}
+INFO:     192.168.10.144:49515 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'Dân tộc': 'Kinh', 'Tôn giáo': 'Không', 'Dấu vết riêng và dị hình': 'Sẹo chấm c.2cm dưới sau mép phải', 'Ngày làm CMND': 'Ngày...03.. tháng...06.năm..2016', 'Giám đốc CA': 'Tỉnh Bắc Ninh'}
+temp: {}
+out: {'data': {'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:51462 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'Dân tộc': 'Kinh', 'Tôn giáo': 'Không', 'Dấu vết riêng và dị hình': 'Sẹo chấm c.2cm dưới sau mép phải', 'Ngày làm CMND': 'Ngày...03.. tháng...06.năm..2016', 'Giám đốc CA': 'Tỉnh Bắc Ninh'}
+temp: {}
+out: {'data': {'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:54552 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': '145064321', 'Họ tên': 'NGUYỄN BẢO NGỌC', 'Sinh ngày': '07-09-1983', 'Nguyên quán': 'Bình Minh Khoái Châu, Hưng Yên', 'Nơi ĐKHK thường trú': 'Bình Minh Khoái, Châu, Hưng Yên'}
+temp: {}
+out: {'data': {'id_card': '145064321', 'name': 'NGUYỄN BẢO NGỌC', 'dob': '07-09-1983', 'poo': 'Bình Minh Khoái Châu, Hưng Yên', 'por': 'Bình Minh Khoái, Châu, Hưng Yên'}}
+INFO:     123.24.206.26:54825 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': 'CĂN CƯỚC CÔNG DÂN', 'Họ tên': 'Citizen Identity Card S61N0.010200003218', 'Sinh ngày': '', 'Nguyên quán': 'Họ và tên I Full name VŨ ĐỨC THẮNG Ngày sinh / Date of birth 18/09/2000', 'Nơi ĐKHK thường trú': 'Giới tính/ Sex Nam Quốc tịch / Nationality Việt Nam Quê quán I Place of origin'}
+temp: {}
+out: {'data': {'id_card': 'CĂN CƯỚC CÔNG DÂN', 'name': 'Citizen Identity Card S61N0.010200003218', 'dob': '', 'poo': 'Họ và tên I Full name VŨ ĐỨC THẮNG Ngày sinh / Date of birth 18/09/2000', 'por': 'Giới tính/ Sex Nam Quốc tịch / Nationality Việt Nam Quê quán I Place of origin'}}
+INFO:     123.24.206.26:61597 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+temp: {}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}}
+INFO:     123.24.206.26:50333 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '040200000589', 'Quê quán / Place of origin': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'Ngày sinh / Date of birth': '18/03/2000', 'Họ và tên / Full name': 'NGUYỄN NGỌC HUY ', 'Nơi thường trú / Place of residence': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'Có giá trị đến / Date of expiry': '18/03/2025'}
+temp: {}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '040200000589', 'poo': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'dob': '18/03/2000', 'name': 'NGUYỄN NGỌC HUY ', 'por': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'doe': '18/03/2025'}}
+INFO:     123.24.206.26:63294 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Đặc điểm nhận dạng / Personal identification': 'Seo chậm cách 1cm dưới sau giói mắt trái', 'Ngày, tháng, năm / Date, month, year': '/06/2021', 'Địa điểm làm CMND': 'CỤC TRƯỞNG CỤC CẢNH SẮT QUẢN LÝ HÀNH CHÍNH VỀ TRẬT TỰ XÃ HỘI DIRECTOR GENERAL OF THE POLICE OEPARTMENT'}
+temp: {}
+out: {'data': {'pi': 'Seo chậm cách 1cm dưới sau giói mắt trái', 'dop': '/06/2021'}}
+INFO:     123.24.206.26:59336 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccd
+res: {'id': '001093005551', 'Họ và tên': 'NGUYỄN TIÊN TÚ', 'Ngày, tháng, năm sinh': '13/07/1993', 'Giới tính': 'Nam', 'Quốc tịch': 'Việt Nam', 'Quê quán': 'Xuân Phú, Phúc Thọ, Hà Nội', 'Nơi thường trú': 'Ân Phú, Xuân Phú, Phúc Thọ Hà Nội', 'Có giá trị đến': '1307/2033'}
+temp: {}
+out: {'data': {'id_card': '001093005551', 'name': 'NGUYỄN TIÊN TÚ', 'dob': '13/07/1993', 'sex': 'Nam', 'nationality': 'Việt Nam', 'poo': 'Xuân Phú, Phúc Thọ, Hà Nội', 'por': 'Ân Phú, Xuân Phú, Phúc Thọ Hà Nội', 'doe': '1307/2033'}}
+INFO:     123.24.206.26:36454 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccd
+res: {'Đặc điểm nhận dạng': 'Sẹo thẳng 2cm cách 1cm trên đuôi mắt tái', 'Ngày làm CMND': 'CỤC TRƯỞNG CỤC CẢNH SÁT', 'Địa điểm làm CMND': 'ĐKQL CƯ TRÚ VÀ DLOG VỀ DÂN CỰ'}
+temp: {}
+out: {'data': {'pi': 'Sẹo thẳng 2cm cách 1cm trên đuôi mắt tái', 'dop': 'CỤC TRƯỞNG CỤC CẢNH SÁT'}}
+INFO:     123.24.206.26:49701 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccd
+res: {'id': '001200020640', 'Họ và tên': 'NGUYỄN BÁ NAM', 'Ngày, tháng, năm sinh': '26/10/2000', 'Giới tính': 'Nam', 'Quốc tịch': 'Việt Nam', 'Quê quán': 'Thạch Xá, Thạch Thất, Hà Nội', 'Nơi thường trú': 'Thôn 1, Thạch Xá Thạch Thất, Hà Nội', 'Có giá trị đến': '26/10/2025'}
+temp: {}
+out: {'data': {'id_card': '001200020640', 'name': 'NGUYỄN BÁ NAM', 'dob': '26/10/2000', 'sex': 'Nam', 'nationality': 'Việt Nam', 'poo': 'Thạch Xá, Thạch Thất, Hà Nội', 'por': 'Thôn 1, Thạch Xá Thạch Thất, Hà Nội', 'doe': '26/10/2025'}}
+INFO:     123.24.206.26:62032 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Đặc điểm nhận dạng / Personal identification': 'Nốt ruổi C 4 cm trên trước mép phải', 'Ngày, tháng, năm / Date, month, year': '23/03/2022', 'Địa điểm làm CMND': 'CỤC TRƯỞNG CỤC CẢNH SÁT QUẢN LÝ HÀNH CHÍNH VỀ TRẬT TỰ XÃ HỘI DIRECTOR GENERAL OF THE POLICE DEPARTMENT'}
+temp: {}
+out: {'data': {'pi': 'Nốt ruổi C 4 cm trên trước mép phải', 'dop': '23/03/2022'}}
+INFO:     123.24.206.26:64471 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:40144 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '042200007259', 'Quê quán / Place of origin': 'Đức Đồng, Đức Thọ, Hà Tĩnh', 'Ngày sinh / Date of birth': '01/01/2000', 'Họ và tên / Full name': 'PHAN VĨNH LINH', 'Nơi thường trú / Place of residence': 'Đức Đồng, Đức Thọ, Hà Tĩnh', 'Có giá trị đến / Date of expiry': '01/01/2025'}
+temp: {}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '042200007259', 'poo': 'Đức Đồng, Đức Thọ, Hà Tĩnh', 'dob': '01/01/2000', 'name': 'PHAN VĨNH LINH', 'por': 'Đức Đồng, Đức Thọ, Hà Tĩnh', 'doe': '01/01/2025'}}
+INFO:     123.24.206.26:35514 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '042066011016', 'Quê quán / Place of origin': 'Đức Đồng, Đức Thọ, Hà Tĩnh', 'Ngày sinh / Date of birth': '02/10/1966', 'Họ và tên / Full name': 'PHAN VĨNH THANH', 'Nơi thường trú / Place of residence': 'Đức Đồng, Đức Thọ, Hà Tĩnh', 'Có giá trị đến / Date of expiry': '02/10/2026'}
+temp: {}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '042066011016', 'poo': 'Đức Đồng, Đức Thọ, Hà Tĩnh', 'dob': '02/10/1966', 'name': 'PHAN VĨNH THANH', 'por': 'Đức Đồng, Đức Thọ, Hà Tĩnh', 'doe': '02/10/2026'}}
+INFO:     123.24.206.26:54010 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+INFO:     123.24.206.26:48017 - "POST /detection HTTP/1.1" 500 Internal Server Error
+../modules/ocr/text_classifier.py:122: RuntimeWarning: invalid value encountered in true_divide
+  char_probs = np.sum(char_probs, axis=-1) / (char_probs > 0).sum(-1)
+../modules/post_processing/form_converter.py:88: RuntimeWarning: invalid value encountered in double_scalars
+  score = np.sum(form_map * img_map) / np.sum(img_map)
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 227, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 159, in run_endpoint_function
+    return await dependant.call(**values)
+  File "main_OCR_H.py", line 114, in predict_api
+    res = pipeline.startB(img, type, "../output")
+  File "../tools/run.py", line 114, in startB
+    No = form["Số / No"]
+TypeError: string indices must be integers
+--------------------------------
+cccc
+ 
+INFO:     123.24.206.26:46113 - "POST /detection HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 227, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 159, in run_endpoint_function
+    return await dependant.call(**values)
+  File "main_OCR_H.py", line 114, in predict_api
+    res = pipeline.startB(img, type, "../output")
+  File "../tools/run.py", line 114, in startB
+    No = form["Số / No"]
+TypeError: string indices must be integers
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     167.248.133.61:56902 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.248.133.61:42056 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+INFO:     123.24.206.26:63078 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+INFO:     123.24.206.26:40580 - "POST /detection HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 227, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 159, in run_endpoint_function
+    return await dependant.call(**values)
+  File "main_OCR_H.py", line 114, in predict_api
+    res = pipeline.startB(img, type, "../output")
+  File "../tools/run.py", line 114, in startB
+    No = form["Số / No"]
+TypeError: string indices must be integers
+--------------------------------
+cmnd
+res: NOT FOUND
+temp: {}
+out: {'data': {}}
+INFO:     123.24.206.26:46023 - "POST /detection HTTP/1.1" 200 OK

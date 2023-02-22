@@ -1,0 +1,52 @@
+############ Hydra configs #############
+hydra:
+    run:
+        dir: .hydra_logs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+    sweep:
+        dir: .hydra_logs/multirun/${now:%Y-%m-%d}/${now:%H-%M-%S}
+        subdir: ${hydra.job.num}
+########################################
+
+device: cpu
+vocab: 'aAàÀảẢãÃáÁạẠăĂằẰẳẲẵẴắẮặẶâÂầẦẩẨẫẪấẤậẬbBcCdDđĐeEèÈẻẺẽẼéÉẹẸêÊềỀểỂễỄếẾệỆfFgGhHiIìÌỉỈĩĨíÍịỊjJkKlLmMnNoOòÒỏỎõÕóÓọỌôÔồỒổỔỗỖốỐộỘơƠờỜởỞỡỠớỚợỢpPqQrRsStTuUùÙủỦũŨúÚụỤưƯừỪửỬữỮứỨựỰvVwWxXyYỳỲỷỶỹỸýÝỵỴzZ0123456789!"#$%&''()*+,-./:;<=>?@[\]^_`{|}~ '
+
+model:
+    seq_modeling: transformer
+    weights: weights/ocr/transformer_ocr.pth
+    backbone: vgg19_bn
+    # disable or enable beamsearch while prediction, use beamsearch will be slower
+    beam_search: False
+
+    input:    
+        image_height: 32
+        image_min_width: 32
+        image_max_width: 512 
+    
+    cnn:
+        pretrained: True
+        # pooling stride size
+        ss:
+            - [2, 2]
+            - [2, 2]
+            - [2, 1]
+            - [2, 1]
+            - [1, 1]         
+        # pooling kernel size 
+        ks:
+            - [2, 2]
+            - [2, 2]
+            - [2, 1]
+            - [2, 1]
+            - [1, 1]
+        # dim of ouput feature map
+        hidden: 256
+    
+    transformer:  
+        d_model: 256
+        nhead: 8
+        num_encoder_layers: 6
+        num_decoder_layers: 6
+        dim_feedforward: 2048
+        max_seq_length: 1024
+        pos_dropout: 0.1
+        trans_dropout: 0.1

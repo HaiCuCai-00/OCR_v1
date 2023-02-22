@@ -1,0 +1,389 @@
+INFO:     Started server process [358568]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:18083 (Press CTRL+C to quit)
+INFO:     123.24.206.26:64668 - "OPTIONS /detection HTTP/1.1" 200 OK
+2022-11-29 11:05:47.341 | INFO     | __main__:predict_api:119 - Executed in 5.200476408004761 s
+--------------------------------
+--------------------------------4
+{'id': '035194000419', 'Họ và tên': 'PHẠM THỊ HƯƠNG', 'Ngày, tháng, năm sinh': '08/10/1994', 'Giới tính': 'nữ', 'Quốc tịch': 'Việt Nam', 'Quê quán': 'Thanh Nghị, Thanh Liêm Hà Nam', 'Nơi thường trú': 'Thôn Bồng Lạng, Thanh Nghị Thanh Liêm, Hà Nam', 'Có giá trị đến': '08/10/2034'}
+--------------------------------4
+count 1
+{}
+{'data': {'name': 'PHẠM THỊ HƯƠNG', 'id_card': '035194000419', 'dob': '08/10/1994', 'sex': 'nữ', 'nationality': 'Việt Nam', 'poo': 'Thanh Nghị, Thanh Liêm Hà Nam', 'por': 'Thôn Bồng Lạng, Thanh Nghị Thanh Liêm, Hà Nam', 'doe': '08/10/2034', 'pi': 'dac diem nhan dang', 'dop': 'ngay cap cmt/cccd'}}
+INFO:     123.24.206.26:64335 - "POST /detection HTTP/1.1" 200 OK
+2022-11-29 11:06:13.114 | INFO     | __main__:predict_api:119 - Executed in 6.562933921813965 s
+--------------------------------
+--------------------------------4
+{'id': '', 'Họ và tên': 'Citizen Identity Card', 'Ngày, tháng, năm sinh': 'Số INo.040192001502', 'Giới tính': 'Họ và tên / Full name', 'Quốc tịch': '', 'Quê quán': 'NGUYỄN THỊ HƯƠNG Ngày sinh / Date of birth 09/10/1992', 'Nơi thường trú': 'Giới tính/ Sex Nữ Quốc tịch/Nationality Quê quán I Place of origin', 'Có giá trị đến': ''}
+--------------------------------4
+count 1
+{}
+{'data': {'name': 'Citizen Identity Card', 'id_card': '', 'dob': 'Số INo.040192001502', 'sex': 'Họ và tên / Full name', 'nationality': '', 'poo': 'NGUYỄN THỊ HƯƠNG Ngày sinh / Date of birth 09/10/1992', 'por': 'Giới tính/ Sex Nữ Quốc tịch/Nationality Quê quán I Place of origin', 'doe': '', 'pi': 'dac diem nhan dang', 'dop': 'ngay cap cmt/cccd'}}
+INFO:     123.24.206.26:38801 - "POST /detection HTTP/1.1" 200 OK
+2022-11-29 11:08:24.903 | INFO     | __main__:predict_api:119 - Executed in 5.535388231277466 s
+--------------------------------
+--------------------------------3
+{'id': '125887788', 'Họ tên': 'NGUYỄN THANH TÙNG', 'Sinh ngày': '25-04-2000', 'Nguyên quán': 'Xã Nhân Thắng Huyện Gia Bình, Bắc Ninh', 'Nơi ĐKHK thường trú': 'Xã Nhân Thăng Huyện Gia Bình, Bắc Ninh'}
+--------------------------------3
+count 1
+{}
+{'data': {'name': 'NGUYỄN THANH TÙNG', 'id_card': '125887788', 'dob': '25-04-2000', 'poo': 'Xã Nhân Thắng Huyện Gia Bình, Bắc Ninh', 'por': 'Xã Nhân Thăng Huyện Gia Bình, Bắc Ninh', 'pi': 'dac diem nhan dang', 'dop': 'ngay cap cmt/cccd'}}
+INFO:     123.24.206.26:64927 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:36250 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+--------------------------------7
+INFO:     123.24.206.26:45330 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:62377 - "POST /detection HTTP/1.1" 200 OK
+2022-11-29 15:23:34.086 | INFO     | __main__:predict_api:119 - Executed in 11.366267442703247 s
+../modules/ocr/text_classifier.py:122: RuntimeWarning: invalid value encountered in true_divide
+  char_probs = np.sum(char_probs, axis=-1) / (char_probs > 0).sum(-1)
+2022-11-29 15:23:39.396 | INFO     | __main__:predict_api:119 - Executed in 5.231555461883545 s
+--------------------------------
+--------------------------------3
+{'id': 'mmin 184462629', 'Họ tên': 'NGUYỄN THÙY TRANG', 'Sinh ngày': '26 09-2002', 'Nguyên quán': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'Nơi ĐKHK thường trú': 'Phúc Đồng Hương Khê, Hà Tĩnh'}
+--------------------------------3
+count 1
+--------------------------------
+--------------------------------3
+{'Dân tộc': 'Kinh', 'Tôn giáo': 'Không', 'Dấu vết riêng và dị hình': 'Sẹo chấm c.2cm dưới sau mép phải', 'Ngày làm CMND': 'Ngày...03.. tháng...06.năm..2016', 'Giám đốc CA': 'Tỉnh Bắc Ninh'}
+--------------------------------3
+count 2
+{}
+{'additionalProp1': {'name': 'NGUYỄN THÙY TRANG', 'id_card': 'mmin 184462629', 'dob': '26 09-2002', 'poo': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'por': 'Phúc Đồng Hương Khê, Hà Tĩnh', 'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     192.168.10.144:58987 - "POST /detection HTTP/1.1" 200 OK
+2022-11-29 15:24:39.453 | INFO     | __main__:predict_api:119 - Executed in 11.198095321655273 s
+--------------------------------
+--------------------------------3
+{'id': 'mmin 184462629', 'Họ tên': 'NGUYỄN THÙY TRANG', 'Sinh ngày': '26 09-2002', 'Nguyên quán': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'Nơi ĐKHK thường trú': 'Phúc Đồng Hương Khê, Hà Tĩnh'}
+--------------------------------3
+count 1
+{}
+{'data': {'name': 'NGUYỄN THÙY TRANG', 'id_card': 'mmin 184462629', 'dob': '26 09-2002', 'poo': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'por': 'Phúc Đồng Hương Khê, Hà Tĩnh', 'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:55488 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:59842 - "OPTIONS /detection HTTP/1.1" 200 OK
+2022-11-29 15:44:18.093 | INFO     | __main__:predict_api:119 - Executed in 6.442032814025879 s
+--------------------------------
+--------------------------------2
+ 
+{'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nữ', 'Số / No': '040192001502', 'Quê quán / Place of origin': 'Thanh Dương, Thanh Chương, Nghệ An', 'Ngày sinh / Date of birth': '09/10/1992', 'Họ và tên / Full name': 'NGUYỄN THỊ HƯƠNG', 'Nơi thường trú / Place of residence': 'Tổ 23, khu 2B Hà Phong, Thành phố Hạ Long, Quảng Ninh', 'Có giá trị đến / Date of expiry': '09/10/2032'}
+--------------------------------2
+count 1
+{}
+{'data': {'name': 'NGUYỄN THỊ HƯƠNG', 'id_card': '040192001502', 'dob': '09/10/1992', 'sex': 'Nữ', 'nationality': 'Việt Nam', 'poo': 'Thanh Dương, Thanh Chương, Nghệ An', 'por': 'Tổ 23, khu 2B Hà Phong, Thành phố Hạ Long, Quảng Ninh', 'doe': '09/10/2032', 'pi': 'dac diem nhan dang', 'dop': 'ngay cap cmt/cccd'}}
+INFO:     123.24.206.26:38517 - "POST /detection HTTP/1.1" 200 OK
+2022-11-29 15:45:51.603 | INFO     | __main__:predict_api:119 - Executed in 6.370681524276733 s
+--------------------------------
+--------------------------------2
+ 
+{'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nữ', 'Số / No': '040192001502', 'Quê quán / Place of origin': 'Thanh Dương, Thanh Chương, Nghệ An', 'Ngày sinh / Date of birth': '09/10/1992', 'Họ và tên / Full name': 'NGUYỄN THỊ HƯƠNG', 'Nơi thường trú / Place of residence': 'Tổ 23, khu 2B Hà Phong, Thành phố Hạ Long, Quảng Ninh', 'Có giá trị đến / Date of expiry': '09/10/2032'}
+--------------------------------2
+count 1
+{}
+{'data': {'name': 'NGUYỄN THỊ HƯƠNG', 'id_card': '040192001502', 'dob': '09/10/1992', 'sex': 'Nữ', 'nationality': 'Việt Nam', 'poo': 'Thanh Dương, Thanh Chương, Nghệ An', 'por': 'Tổ 23, khu 2B Hà Phong, Thành phố Hạ Long, Quảng Ninh', 'doe': '09/10/2032', 'pi': 'dac diem nhan dang', 'dop': 'ngay cap cmt/cccd'}}
+INFO:     123.24.206.26:49170 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:64665 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:45168 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:47321 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:56306 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:58435 - "POST /detection HTTP/1.1" 200 OK
+2022-11-29 15:55:16.159 | INFO     | __main__:predict_api:119 - Executed in 11.216361284255981 s
+--------------------------------
+--------------------------------3
+{'id': 'mmin 184462629', 'Họ tên': 'NGUYỄN THÙY TRANG', 'Sinh ngày': '26 09-2002', 'Nguyên quán': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'Nơi ĐKHK thường trú': 'Phúc Đồng Hương Khê, Hà Tĩnh'}
+--------------------------------3
+count 1
+{}
+{'data': {'name': 'NGUYỄN THÙY TRANG', 'id_card': 'mmin 184462629', 'dob': '26 09-2002', 'poo': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'por': 'Phúc Đồng Hương Khê, Hà Tĩnh', 'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:41979 - "POST /detection HTTP/1.1" 200 OK
+2022-11-29 16:00:43.157 | INFO     | __main__:predict_api:119 - Executed in 11.635422468185425 s
+--------------------------------
+--------------------------------3
+{'id': '1184462629', 'Họ tên': 'NGUYỄN THÙY TRANG', 'Sinh ngày': '', 'Nguyên quán': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'Nơi ĐKHK thường trú': 'Phúc Đồng Hương Khê, Hà Tĩnh'}
+--------------------------------3
+count 1
+{}
+{'data': {'name': 'NGUYỄN THÙY TRANG', 'id_card': '1184462629', 'dob': '', 'poo': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'por': 'Phúc Đồng Hương Khê, Hà Tĩnh', 'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:63518 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+--------------------------------5
+['03610001960', '036100000000', 'Khẩu trong', 'a', 'tê', '"ở Vì diệu nửa tay, Phoncovg"" đất"', 'tại cả gồm, học chiết, như chúng giặc, và anh cổng', 'bất cả cùng', 'đồng trở trị chúng thiết như chếm', 'nhất là', 'Phạm người đến điệm trình ma (Trường đó', 'như vửa qua giống', '1 hưng, miềm vù xuân mới, nhưng con người thồm lặng, nơi đây', 'Rồi đây, mối ngày em một', 'vẫn tiếp tục cuộc chiến tới cũng', 'không chộng mại còn hóa cho những cập chống cổng cổng cổ ". người, mà trước', 'bão giông. Tất cả bắt đầu từ ngày', 'Yêu om thật nhiều?']
+--------------------------------5
+INFO:     123.24.206.26:59354 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+--------------------------------5
+['Ký bởi: Cổng Thông tin điện tử Chính phủ', 'VGPP. Trên Thị Trong Thị Trung Thị Thế Trị Thế Thế Thế Thế Thế Thế Thế Thế Thế Tỉ Thế Tỉ Thế Tỉ TP TP TP TP T T T T T T T T T T T', 'Cơ quan: Vấn phòng Chính phủ', 'Thời gian ký: 12.12.2019 16:30:25 407:00', 'CÔNG THỐNG TIN ĐIỆN TỪ CHÍNH PHỦ', 'QUỐC HỘI', 'CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM', 'Độc lập - Tự do - Hạnh phúc', 'Luật số: 50/2019/QH14', 'LUẬT', 'SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT QUẢN LÝ,', 'SỬ DỤNG VŨ KHÍ, VẬT LIỆU NỔ VÀ CÔNG CỤ HỖ TRỢ', 'Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;', 'Quốc hội ban hành Luật sửa đổi, bổ sung một số điều của Luật Quản lý;', 'sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ số 14/2017/QH14.', 'Điều 1. Sửa đổi, bổ sung một số điều của Luật Quản lý, sử dụng vũ khí,', 'vật liệu nổ và công cụ hỗ trợ', '1. Sửa đổi, bổ sung một số khoản của Điều 3 như sau:', 'a) Sửa đổi, bổ sung khoản 2 như sau:', '(2. Vũ khi quân dụng bao gồm:', 'a) Vũ khí được chế tạo, sản xuất bảo đảm tiêu chuẩn kỹ thuật, thiết kế của', 'nhà sản xuất hợp pháp, được trang bị cho lực lượng vũ trang nhân dân và các', 'lực lượng khác theo quy định của Luật này để thi hành công vụ, bao gồm:', 'Súng cầm tay: súng ngắn, súng trường, súng tiểu liên, súng trung liên,', 'súng chống tăng, súng phóng lựu;', 'Vũ khí hạng nhẹ: súng đại liên, súng cối, súng ĐKZ, súng máy phòng không,', 'tên lửa chống tăng cá nhân;', 'Vũ khí hạng nặng: máy bay chiến đấu, trực thăng vũ trang, xe tăng, xe thiết giáp,', 'tàu chiến, tàu ngầm, pháo mặt đất, pháo phòng không, tên lửa;', 'Bom, mìn, lựu đạn, ngư lôi, thủy lôi; đạn sử dụng cho các loại vũ khí quy định', 'tại điểm này;', 'b) Vũ khí được chế tạo, sản xuất thủ công hoặc công nghiệp, không theo tiêu chuẩn', 'kỹ thuật, thiết kế của nhà sản xuất hợp pháp, có khả năng gây sát thương, nguy hại', 'cho tính mạng, sức khỏe của con người, phá hủy kết cấu vật chất tương tự như vũ khí', 'quy định tại điểm a khoản này, không được trang bị cho lực lượng vũ trang nhân dân', 'và các lực lượng khác quy định tại Điều 18 của Luật này để thi hành công vụ..";;', 'b) Sửa đổi, bổ sung khoản 6 như sau:', '?6. Vũ khi có tính năng, tác dụng tương tự súng săn, vũ khí thô sơ, vũ khi thể thao', 'là vũ khí được chế tạo, sản xuất thủ công hoặc công nghiệp, không theo tiêu chuẩn', 'kỹ thuật, thiết kế của nhà sản xuất hợp pháp, có khả năng gây sát thương, nguy hại']
+--------------------------------5
+INFO:     123.24.206.26:62221 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:37613 - "OPTIONS /detection HTTP/1.1" 200 OK
+2022-11-29 16:13:07.334 | INFO     | __main__:predict_api:119 - Executed in 5.164218425750732 s
+--------------------------------
+--------------------------------4
+{'id': '001200020640', 'Họ và tên': 'NGUYỄN BÁ NAM', 'Ngày, tháng, năm sinh': '26/10/2000', 'Giới tính': 'Nam', 'Quốc tịch': 'Việt Nam', 'Quê quán': 'Thạch Xá, Thạch Thất, Hà Nội', 'Nơi thường trú': 'Thôn 1, Thạch Xá Thạch Thất, Hà Nội', 'Có giá trị đến': '26/10/2025'}
+--------------------------------4
+count 1
+{}
+{'data': {'name': 'NGUYỄN BÁ NAM', 'id_card': '001200020640', 'dob': '26/10/2000', 'sex': 'Nam', 'nationality': 'Việt Nam', 'poo': 'Thạch Xá, Thạch Thất, Hà Nội', 'por': 'Thôn 1, Thạch Xá Thạch Thất, Hà Nội', 'doe': '26/10/2025', 'pi': 'dac diem nhan dang', 'dop': 'ngay cap cmt/cccd'}}
+INFO:     123.24.206.26:58523 - "POST /detection HTTP/1.1" 200 OK
+2022-11-29 16:13:34.327 | INFO     | __main__:predict_api:119 - Executed in 5.182636737823486 s
+--------------------------------
+--------------------------------4
+{'id': '001200020640', 'Họ và tên': 'NGUYỄN BÁ NAM', 'Ngày, tháng, năm sinh': '26/10/2000', 'Giới tính': 'Nam', 'Quốc tịch': 'Việt Nam', 'Quê quán': 'Thạch Xá, Thạch Thất, Hà Nội', 'Nơi thường trú': 'Thôn 1, Thạch Xá Thạch Thất, Hà Nội', 'Có giá trị đến': '26/10/2025'}
+--------------------------------4
+count 1
+{}
+{'data': {'name': 'NGUYỄN BÁ NAM', 'id_card': '001200020640', 'dob': '26/10/2000', 'sex': 'Nam', 'nationality': 'Việt Nam', 'poo': 'Thạch Xá, Thạch Thất, Hà Nội', 'por': 'Thôn 1, Thạch Xá Thạch Thất, Hà Nội', 'doe': '26/10/2025', 'pi': 'dac diem nhan dang', 'dop': 'ngay cap cmt/cccd'}}
+INFO:     123.24.206.26:58572 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:37921 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+--------------------------------5
+INFO:     123.24.206.26:63852 - "POST /detection HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 227, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 159, in run_endpoint_function
+    return await dependant.call(**values)
+  File "main_OCR_H.py", line 88, in predict_api
+    res = pipeline.startD(img, "../output")
+  File "../tools/run.py", line 198, in startD
+    crop_list, regions, image_detect = self.det_model.detect_text(img)
+  File "../models/craft_text_detector/__init__.py", line 125, in detect_text
+    result = export_extra_results(image=image, regions=regions)
+  File "../models/craft_text_detector/file_utils.py", line 215, in export_extra_results
+    return detect
+UnboundLocalError: local variable 'detect' referenced before assignment
+--------------------------------
+--------------------------------5
+['Request Payload', 'view source', '(data: (images: I,-I, type: "abt")', 'data: (images: D.), type: "abt")', 'images: I,...)', 'O: ""IVBORW?KGGOAAAANSUHEUGAABrOAAAAJCAIAAABESE1UAAAC Show more (19.7 kb) Copy', 'type: "abt"']
+--------------------------------5
+INFO:     123.24.206.26:37207 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:57836 - "OPTIONS /detection HTTP/1.1" 200 OK
+2022-12-02 15:55:33.827 | INFO     | __main__:predict_api:119 - Executed in 6.058568954467773 s
+--------------------------------
+--------------------------------2
+ 
+{'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+--------------------------------2
+count 1
+{}
+{'data': {'name': 'VŨ ĐỨC THẮNG', 'id_card': '010200003218', 'dob': '18/09/2000', 'sex': 'Nam', 'nationality': 'Việt Nam', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025', 'pi': 'dac diem nhan dang', 'dop': 'ngay cap cmt/cccd'}}
+INFO:     123.24.206.26:37976 - "POST /detection HTTP/1.1" 200 OK
+2022-12-02 15:55:53.526 | INFO     | __main__:predict_api:119 - Executed in 5.73557448387146 s
+--------------------------------
+--------------------------------2
+ 
+{'Đặc điểm nhận dạng / Personal identification': 'Seo chậm cách 1cm dưới sau giói mắt trái', 'Ngày, tháng, năm / Date, month, year': '/06/2021', 'Địa điểm làm CMND': 'CỤC TRƯỞNG CỤC CẢNH SẮT QUẢN LÝ HÀNH CHÍNH VỀ TRẬT TỰ XÃ HỘI DIRECTOR GENERAL OF THE POLICE OEPARTMENT'}
+--------------------------------2
+count 1
+{}
+{'data': {'name': 'VŨ ĐỨC THẮNG', 'id_card': '010200003218', 'dob': '18/09/2000', 'sex': 'Nam', 'nationality': 'Việt Nam', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025', 'pi': 'Seo chậm cách 1cm dưới sau giói mắt trái', 'dop': '/06/2021'}}
+INFO:     123.24.206.26:38675 - "POST /detection HTTP/1.1" 200 OK
+INFO:     87.236.176.141:42977 - "GET / HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:36947 - "GET /docs HTTP/1.1" 200 OK
+INFO:     123.24.206.26:36947 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:36947 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     87.236.176.177:41427 - "GET / HTTP/1.1" 404 Not Found
+INFO:     123.24.206.26:33704 - "GET /docs HTTP/1.1" 200 OK
+INFO:     123.24.206.26:33704 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     123.24.206.26:62313 - "POST /detection HTTP/1.1" 422 Unprocessable Entity
+2022-12-06 10:37:40.747 | INFO     | __main__:predict_api:119 - Executed in 11.26781153678894 s
+--------------------------------
+--------------------------------3
+{'id': 'mmin 184462629', 'Họ tên': 'NGUYỄN THÙY TRANG', 'Sinh ngày': '26 09-2002', 'Nguyên quán': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'Nơi ĐKHK thường trú': 'Phúc Đồng Hương Khê, Hà Tĩnh'}
+--------------------------------3
+count 1
+{}
+{'additionalProp1': {'name': 'NGUYỄN THÙY TRANG', 'id_card': 'mmin 184462629', 'dob': '26 09-2002', 'poo': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'por': 'Phúc Đồng Hương Khê, Hà Tĩnh', 'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:42411 - "POST /detection HTTP/1.1" 200 OK
+2022-12-06 10:38:14.824 | INFO     | __main__:predict_api:119 - Executed in 11.269816875457764 s
+2022-12-06 10:38:19.305 | INFO     | __main__:predict_api:119 - Executed in 4.4691760540008545 s
+--------------------------------
+--------------------------------3
+{'id': 'mmin 184462629', 'Họ tên': 'NGUYỄN THÙY TRANG', 'Sinh ngày': '26 09-2002', 'Nguyên quán': 'Phúc Đồng Hương Khe, Hà Tĩnh', 'Nơi ĐKHK thường trú': 'Phúc Đồng Hương Khê, Hà Tĩnh'}
+--------------------------------3
+count 1
+--------------------------------
+--------------------------------3
+{'id': '145064321', 'Họ tên': 'NGUYỄN BẢO NGỌC', 'Sinh ngày': '07-09-1983', 'Nguyên quán': 'Bình Minh Khoái Châu, Hưng Yên', 'Nơi ĐKHK thường trú': 'Bình Minh Khoái Châu, Hưng Yên'}
+--------------------------------3
+count 2
+{}
+{'additionalProp1': {'name': 'NGUYỄN BẢO NGỌC', 'id_card': '145064321', 'dob': '07-09-1983', 'poo': 'Bình Minh Khoái Châu, Hưng Yên', 'por': 'Bình Minh Khoái Châu, Hưng Yên', 'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:56991 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:40495 - "POST /detection HTTP/1.1" 422 Unprocessable Entity
+2022-12-06 10:46:02.556 | INFO     | __main__:predict_api:157 - Executed in 4.497057914733887 s
+2022-12-06 10:46:13.877 | INFO     | __main__:predict_api:157 - Executed in 11.237564325332642 s
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+GIẤY CHỨNG MINH NHÂN DÂN
+số 145064321
+NGUYỄN BẢO NGỌC
+Họ tên
+07-09-1983
+Sinh ngày
+Bình Minh
+Nguyễn quán
+Khoái Châu, Hưng Yên
+Bình Minh
+- Nơi ĐKHK thường trú:
+Khoái Châu, Hưng Yên
+0
+CÔNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập Tự do Hạnh phúc
+GIẤY CHỨNG MINH NHÂN DÂN
+sốmmin
+184462629
+NGUYỄN THÙY TRANG
+Họ tên
+Sinh ngày
+26:09-2002
+Nguyễn quán
+Phúc Đồng
+Hương Khe, Hà Tĩnh
+Phúc Đồng
+Nơi ĐKHK thường trứ
+Hương Khê, Hà Tĩnh
+0
+INFO:     123.24.206.26:6840 - "POST /detection1 HTTP/1.1" 200 OK
+2022-12-06 10:48:03.201 | INFO     | __main__:predict_api:157 - Executed in 4.512734651565552 s
+2022-12-06 10:48:14.746 | INFO     | __main__:predict_api:157 - Executed in 11.462356567382812 s
+2022-12-06 10:48:18.132 | INFO     | __main__:predict_api:157 - Executed in 3.3563976287841797 s
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+GIẤY CHỨNG MINH NHÂN DÂN
+số 145064321
+NGUYỄN BẢO NGỌC
+Họ tên
+07-09-1983
+Sinh ngày
+Bình Minh
+Nguyễn quán
+Khoái Châu, Hưng Yên
+Bình Minh
+- Nơi ĐKHK thường trú:
+Khoái Châu, Hưng Yên
+0
+CÔNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập Tự do Hạnh phúc
+GIẤY CHỨNG MINH NHÂN DÂN
+sốmmin
+184462629
+NGUYỄN THÙY TRANG
+Họ tên
+Sinh ngày
+26:09-2002
+Nguyễn quán
+Phúc Đồng
+Hương Khe, Hà Tĩnh
+Phúc Đồng
+Nơi ĐKHK thường trứ
+Hương Khê, Hà Tĩnh
+0
+Đặc điểm nhân dạng: Nốt ruồi cách 1cm trên sau
+
+cánh mũi phải.
+Ngày 11
+tháng 05 năm 2016
+CỤC TRƯỞNG CỤC CẢNH SÁT
+ĐKQL CƯ TRÚ VÀ DLQG VỀ DÂN CƯ
+TỔNG CỤC CẢNH
+
+188210
+Trần Quốc Sáng
+0
+INFO:     123.24.206.26:42887 - "POST /detection1 HTTP/1.1" 200 OK
+2022-12-06 10:50:54.079 | INFO     | __main__:predict_api:119 - Executed in 6.152040004730225 s
+2022-12-06 10:50:57.480 | INFO     | __main__:predict_api:119 - Executed in 3.3179211616516113 s
+--------------------------------
+--------------------------------2
+ 
+{'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '040200000589', 'Quê quán / Place of origin': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'Ngày sinh / Date of birth': '18/03/2000', 'Họ và tên / Full name': 'NGUYỄN NGỌC HUY ', 'Nơi thường trú / Place of residence': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'Có giá trị đến / Date of expiry': '18/03/2025'}
+--------------------------------2
+count 1
+--------------------------------
+--------------------------------2
+ 
+NOT FOUND
+--------------------------------2
+count 2
+{}
+{'additionalProp1': {}}
+INFO:     123.24.206.26:63727 - "POST /detection HTTP/1.1" 200 OK
+2022-12-06 10:51:56.966 | INFO     | __main__:predict_api:119 - Executed in 6.189753770828247 s
+2022-12-06 10:52:06.102 | INFO     | __main__:predict_api:119 - Executed in 9.041743516921997 s
+--------------------------------
+--------------------------------2
+ 
+{'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '040200000589', 'Quê quán / Place of origin': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'Ngày sinh / Date of birth': '18/03/2000', 'Họ và tên / Full name': 'NGUYỄN NGỌC HUY ', 'Nơi thường trú / Place of residence': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'Có giá trị đến / Date of expiry': '18/03/2025'}
+--------------------------------2
+count 1
+--------------------------------
+--------------------------------2
+ 
+{'Đặc điểm nhận dạng / Personal identification': 'Nốt ruổi C 4 cm trên trước mép phải', 'Ngày, tháng, năm / Date, month, year': '23/03/2022', 'Địa điểm làm CMND': 'CỤC TRƯỞNG CỤC CẢNH SÁT QUẢN LÝ HÀNH CHÍNH VỀ TRẬT TỰ XÃ HỘI DIRECTOR GENERAL OF THE POLICE DEPARTMENT'}
+--------------------------------2
+count 2
+{}
+{'additionalProp1': {'name': 'NGUYỄN NGỌC HUY ', 'id_card': '040200000589', 'dob': '18/03/2000', 'sex': 'Nam', 'nationality': 'Việt Nam', 'poo': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'por': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'doe': '18/03/2025', 'pi': 'Nốt ruổi C 4 cm trên trước mép phải', 'dop': '23/03/2022'}}
+INFO:     123.24.206.26:61071 - "POST /detection HTTP/1.1" 200 OK
+2022-12-06 14:53:15.496 | INFO     | __main__:predict_api:119 - Executed in 6.336004972457886 s
+2022-12-06 14:53:20.698 | INFO     | __main__:predict_api:119 - Executed in 5.122138023376465 s
+--------------------------------
+--------------------------------3
+{'id': 'CĂN CƯỚC CÔNG DÂN', 'Họ tên': 'Citizen Identity Card S61N0.010200003218', 'Sinh ngày': '', 'Nguyên quán': 'Họ và tên I Full name VŨ ĐỨC THẮNG Ngày sinh / Date of birth 18/09/2000', 'Nơi ĐKHK thường trú': 'Giới tính/ Sex Nam Quốc tịch / Nationality Việt Nam Quê quán I Place of origin'}
+--------------------------------3
+count 1
+--------------------------------
+--------------------------------3
+{'Dân tộc': 'Kinh', 'Tôn giáo': 'Không', 'Dấu vết riêng và dị hình': 'Sẹo chấm c.2cm dưới sau mép phải', 'Ngày làm CMND': 'Ngày...03.. tháng...06.năm..2016', 'Giám đốc CA': 'Tỉnh Bắc Ninh'}
+--------------------------------3
+count 2
+{}
+{'additionalProp1': {'name': 'Citizen Identity Card S61N0.010200003218', 'id_card': 'CĂN CƯỚC CÔNG DÂN', 'dob': '', 'poo': 'Họ và tên I Full name VŨ ĐỨC THẮNG Ngày sinh / Date of birth 18/09/2000', 'por': 'Giới tính/ Sex Nam Quốc tịch / Nationality Việt Nam Quê quán I Place of origin', 'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     192.168.10.144:56098 - "POST /detection HTTP/1.1" 200 OK
+2022-12-06 15:25:32.257 | INFO     | __main__:predict_api:119 - Executed in 4.474767684936523 s
+2022-12-06 15:25:37.444 | INFO     | __main__:predict_api:119 - Executed in 5.1068572998046875 s
+--------------------------------
+--------------------------------3
+{'id': '145064321', 'Họ tên': 'NGUYỄN BẢO NGỌC', 'Sinh ngày': '07-09-1983', 'Nguyên quán': 'Bình Minh Khoái Châu, Hưng Yên', 'Nơi ĐKHK thường trú': 'Bình Minh Khoái Châu, Hưng Yên'}
+--------------------------------3
+count 1
+--------------------------------
+--------------------------------3
+{'Dân tộc': 'Kinh', 'Tôn giáo': 'Không', 'Dấu vết riêng và dị hình': 'Sẹo chấm c.2cm dưới sau mép phải', 'Ngày làm CMND': 'Ngày...03.. tháng...06.năm..2016', 'Giám đốc CA': 'Tỉnh Bắc Ninh'}
+--------------------------------3
+count 2
+{}
+{'additionalProp1': {'name': 'NGUYỄN BẢO NGỌC', 'id_card': '145064321', 'dob': '07-09-1983', 'poo': 'Bình Minh Khoái Châu, Hưng Yên', 'por': 'Bình Minh Khoái Châu, Hưng Yên', 'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:43998 - "POST /detection HTTP/1.1" 200 OK

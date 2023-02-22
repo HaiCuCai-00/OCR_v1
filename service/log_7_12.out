@@ -1,0 +1,576 @@
+INFO:     Started server process [865111]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:18083 (Press CTRL+C to quit)
+INFO:     123.24.206.26:37635 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+INFO:     123.24.206.26:49902 - "POST /detection HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 227, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 159, in run_endpoint_function
+    return await dependant.call(**values)
+  File "main_OCR_H.py", line 116, in predict_api
+    res = pipeline.startA(img, type, "../output")
+  File "../tools/run.py", line 48, in startA
+    crop_list, regions, image_detect = self.det_model.detect_text(img)
+  File "../models/craft_text_detector/__init__.py", line 125, in detect_text
+    result = export_extra_results(image=image, regions=regions)
+  File "../models/craft_text_detector/file_utils.py", line 215, in export_extra_results
+    return detect
+UnboundLocalError: local variable 'detect' referenced before assignment
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '040200000589', 'Quê quán / Place of origin': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'Ngày sinh / Date of birth': '18/03/2000', 'Họ và tên / Full name': 'NGUYỄN NGỌC HUY ', 'Nơi thường trú / Place of residence': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'Có giá trị đến / Date of expiry': '18/03/2025'}
+temp: {}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '040200000589', 'poo': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'dob': '18/03/2000', 'name': 'NGUYỄN NGỌC HUY ', 'por': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'doe': '18/03/2025'}}
+INFO:     123.24.206.26:59969 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: NOT FOUND
+temp: {}
+out: {'data': {}}
+INFO:     123.24.206.26:61865 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': '', 'Giới tính / Sex': 'Hương Khê, Hà Tĩnh', 'Số / No': '26 09-2002 Nguyễn quán Phúc Đồng', 'Quê quán / Place of origin': '', 'Ngày sinh / Date of birth': 'Phúc Đồng', 'Họ và tên / Full name': 'Hương Khe, Hà Tĩnh Nơi ĐKHK thường trứ', 'Nơi thường trú / Place of residence': '', 'Có giá trị đến / Date of expiry': ''}
+temp: {}
+out: {'data': {'nationality': '', 'sex': 'Hương Khê, Hà Tĩnh', 'id_card': '26 09-2002 Nguyễn quán Phúc Đồng', 'poo': '', 'dob': 'Phúc Đồng', 'name': 'Hương Khe, Hà Tĩnh Nơi ĐKHK thường trứ', 'por': '', 'doe': ''}}
+INFO:     123.24.206.26:42132 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:59888 - "GET /docs HTTP/1.1" 200 OK
+INFO:     123.24.206.26:59888 - "GET /openapi.json HTTP/1.1" 200 OK
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+GIẤY CHỨNG MINH NHÂN DÂN
+số 145064321
+NGUYỄN BẢO NGỌC
+Họ tên
+07-09-1983
+Sinh ngày
+Bình Minh
+Nguyễn quán
+Khoái Châu, Hưng Yên
+Bình Minh
+- Nơi ĐKHK thường trú:
+Khoái Châu, Hưng Yên
+0
+id
+Họ tên
+Sinh ngày
+Nguyên quán
+Nơi ĐKHK thường trú
+'sex'
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+SOCIALIST REPUBLIC OF VIET NAM
+Independence - Freedom - Happiness
+CĂN CƯỚC CÔNG DÂN
+Citizen Identity Card O
+Số I No: 040200000589
+Họ và tên / Full name:
+NGUYỄN NGỌC HUY
+Ngày sinh / Date of birth: 18/03/2000
+Giới tỉnh / Sex: Nam Quốc tịch I Nationality: Việt Nam
+Quê quán I Place of origin
+Thị trấn yên thành, yên thành, nghệ an
+Nơi thường trú I Place of residence? Khối Tây Hồ 1
+Có giá trị đến 18/03/2025
+Quang Tiến, Thị xã Thái Hoà, Nghệ An
+Date of expiry
+0
+Quốc tịch / Nationality
+Giới tính / Sex
+Số / No
+Quê quán / Place of origin
+Ngày sinh / Date of birth
+Họ và tên / Full name
+Nơi thường trú / Place of residence
+Có giá trị đến / Date of expiry
+INFO:     123.24.206.26:55296 - "POST /detection1 HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'Dân tộc': 'Kinh', 'Tôn giáo': 'Không', 'Dấu vết riêng và dị hình': 'Sẹo chấm c.2cm dưới sau mép phải', 'Ngày làm CMND': 'Ngày...03.. tháng...06.năm.2016', 'Giám đốc CA': 'Tỉnh Bắc Ninh'}
+temp: {}
+out: {'additionalProp1': {'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm.2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:39980 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': '174324001', 'Họ tên': 'NGUYỄN HOÀI LINH', 'Sinh ngày': '23.05.1995', 'Nguyên quán': 'Xã Xuân Minh Huyện Thọ Xuân, Thanh Hóa', 'Nơi ĐKHK thường trú': '- xã xuân minh Huyện, Thọ Xuân, Thanh, Hóa'}
+temp: {}
+out: {'additionalProp1': {'id_card': '174324001', 'name': 'NGUYỄN HOÀI LINH', 'dob': '23.05.1995', 'poo': 'Xã Xuân Minh Huyện Thọ Xuân, Thanh Hóa', 'por': '- xã xuân minh Huyện, Thọ Xuân, Thanh, Hóa'}}
+INFO:     123.24.206.26:53263 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'Dân tộc': 'Kinh', 'Tôn giáo': 'Không', 'Dấu vết riêng và dị hình': 'Sẹo chấm c.2cm dưới sau mép phải', 'Ngày làm CMND': 'Ngày...03.. tháng...06.năm.2016', 'Giám đốc CA': 'Tỉnh Bắc Ninh'}
+temp: {}
+out: {'additionalProp1': {'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm.2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     123.24.206.26:65197 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:40255 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:39483 - "POST /detection HTTP/1.1" 422 Unprocessable Entity
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+GIẤY CHỨNG MINH NHÂN DÂN
+số 145064321
+NGUYỄN BẢO NGỌC
+Họ tên
+07-09-1983
+Sinh ngày
+Bình Minh
+Nguyễn quán
+Khoái Châu, Hưng Yên
+Bình Minh
+- Nơi ĐKHK thường trú:
+Khoái Châu, Hưng Yên
+0
+id
+Họ tên
+Sinh ngày
+Nguyên quán
+Nơi ĐKHK thường trú
+'sex'
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập Tự do - Hạnh phúc
+GIẤY CHỨNG MINH NHÂN DÂN
+sốu:321602326
+Họ tên
+NGUYỄN NGỌC CHÂU DUNG
+22-12-1999
+Sinh ngày
+Bình Nhì
+Nguyên quán
+Gò Công Tây, Tiền Giang
+pow
+46/TNG
+Nơi ĐKHK thường trú
+Bảo Thạnh, Ba Tri, Bến Tre
+Không
+Kinh
+Dân tộc:
+.Tôn giáo:...
+DẤU VẾT RIÊNG VÀ DỊ HÌNH
+1
+Seo chấm cách 4cm dưới sau
+Ngày.07
+08
+năm.2015
+GIÁM ĐỐC CA TỈNH BẾN TRe
+1
+Nguyễn Văn Hoàng
+0
+id
+Họ tên
+Sinh ngày
+Nguyên quán
+Nơi ĐKHK thường trú
+'sex'
+INFO:     123.24.206.26:63384 - "POST /detection1 HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': 'u 321602326', 'Họ tên': 'NGUYỄN NGỌC CHÂU DUNG', 'Sinh ngày': '22-12-1999', 'Nguyên quán': 'Bình Nhì Gò Công Tây, Tiền Giang', 'Nơi ĐKHK thường trú': '46/TNG Bảo Thạnh, Ba Tri, Bến Tre'}
+temp: {}
+out: {'additionalProp1': {'id_card': 'u 321602326', 'name': 'NGUYỄN NGỌC CHÂU DUNG', 'dob': '22-12-1999', 'poo': 'Bình Nhì Gò Công Tây, Tiền Giang', 'por': '46/TNG Bảo Thạnh, Ba Tri, Bến Tre'}}
+INFO:     123.24.206.26:37340 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:1792 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '001092050841', 'Quê quán / Place of origin': 'Tiên Lữ, Hưng Yên', 'Ngày sinh / Date of birth': '12/01/1992', 'Họ và tên / Full name': 'ĐÀO PHI LONG', 'Nơi thường trú / Place of residence': 'Số 38 Ngỗ 168 Ngọc Hà, Ngọc Hà, Ba Đình, Hà Nội', 'Có giá trị đến / Date of expiry': '12/01/2032'}
+temp: {}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '001092050841', 'poo': 'Tiên Lữ, Hưng Yên', 'dob': '12/01/1992', 'name': 'ĐÀO PHI LONG', 'por': 'Số 38 Ngỗ 168 Ngọc Hà, Ngọc Hà, Ba Đình, Hà Nội', 'doe': '12/01/2032'}}
+INFO:     123.24.206.26:38303 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Đặc điểm nhận dạng / Personal identification': 'Nốt ruổi C 4 cm trên trước mép phải', 'Ngày, tháng, năm / Date, month, year': '23/03/2022', 'Địa điểm làm CMND': 'CỤC TRƯỞNG CỤC CẢNH SÁT QUẢN LÝ HÀNH CHÍNH VỀ TRẬT TỰ XÃ HỘI DIRECTOR GENERAL OF THE POLICE DEPARTMENT'}
+temp: {}
+out: {'data': {'pi': 'Nốt ruổi C 4 cm trên trước mép phải', 'dop': '23/03/2022'}}
+INFO:     123.24.206.26:44532 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '042200007259', 'Quê quán / Place of origin': 'Đức Đồng, Đức Thọ, Hà Tĩnh', 'Ngày sinh / Date of birth': '01/01/2000', 'Họ và tên / Full name': 'PHAN VĨNH LINH', 'Nơi thường trú / Place of residence': 'Đức Đồng, Đức Thọ, Hà Tĩnh', 'Có giá trị đến / Date of expiry': '01/01/2025'}
+temp: {}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '042200007259', 'poo': 'Đức Đồng, Đức Thọ, Hà Tĩnh', 'dob': '01/01/2000', 'name': 'PHAN VĨNH LINH', 'por': 'Đức Đồng, Đức Thọ, Hà Tĩnh', 'doe': '01/01/2025'}}
+INFO:     123.24.206.26:58530 - "POST /detection HTTP/1.1" 200 OK
+INFO:     87.236.176.154:45303 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.142.125.220:59198 - "GET / HTTP/1.1" 404 Not Found
+../modules/ocr/text_classifier.py:122: RuntimeWarning: invalid value encountered in true_divide
+  char_probs = np.sum(char_probs, axis=-1) / (char_probs > 0).sum(-1)
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+INFO:     123.24.206.26:44641 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+abt
+res: ['GIẢI THƯỞNG', 'Saokhue', 'VÒNG THUYẾT TRÌNH', 'TOP10', '2022', 'VIETNAM ICT EXCELLENCE', 'TÀI TRỢ VÀNG', 'BIDV', 'NGÂN HÀNG ĐẦU TƯ VÀ PHÁT TRIỂN VIỆT NAM', 'TÀI TRỢ ĐỒNG', 'VNPT', 'ĐỒNG TÀI TRỢ', 'Sacombank']
+temp: {}
+out: {'data': {}}
+INFO:     123.24.206.26:55664 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+abt
+res: ['Lifetek', 'Hilo', 'GROUP', 'Công Nghệ Cho Cuộc Sống', 'LỄ KÝ KẾT HỢP TÁC CHIẾN LƯỢC', 'GIỮA CÔNG TY CP CÔNG NGHỆ LIFETEK & CÔNG TY CP DỊCH VỤT-VAN HILO', 'Hà Nội, Ngày 20 tháng 10 năm 2022']
+temp: {}
+out: {'data': {}}
+INFO:     123.24.206.26:36454 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:43343 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: NOT FOUND
+temp: {}
+out: {'data': {}}
+INFO:     123.24.206.26:46322 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+abt
+res: ['ARYAN']
+temp: {}
+out: {'data': {}}
+INFO:     123.24.206.26:38213 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: NOT FOUND
+temp: {}
+out: {'data': {}}
+INFO:     123.24.206.26:42303 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': '', 'Giới tính / Sex': '03 quân Pece dong', 'Số / No': '001082946357', 'Quê quán / Place of origin': '', 'Ngày sinh / Date of birth': '0.0', 'Họ và tên / Full name': 'Ngày vũ 1000 được', 'Nơi thường trú / Place of residence': '', 'Có giá trị đến / Date of expiry': ''}
+temp: {}
+out: {'data': {'nationality': '', 'sex': '03 quân Pece dong', 'id_card': '001082946357', 'poo': '', 'dob': '0.0', 'name': 'Ngày vũ 1000 được', 'por': '', 'doe': ''}}
+INFO:     123.24.206.26:52407 - "POST /detection HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     162.142.125.8:45588 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.142.125.8:59172 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+--------------------------------
+cmnd
+res: {'id': '145064321', 'Họ tên': 'NGUYỄN BẢO NGỌC', 'Sinh ngày': '07-09-1983', 'Nguyên quán': 'Bình Minh Khoái Châu, Hưng Yên', 'Nơi ĐKHK thường trú': 'Bình Minh Khoái, Châu, Hưng Yên'}
+temp: {}
+out: {'additionalProp1': {'id_card': '145064321', 'name': 'NGUYỄN BẢO NGỌC', 'dob': '07-09-1983', 'poo': 'Bình Minh Khoái Châu, Hưng Yên', 'por': 'Bình Minh Khoái, Châu, Hưng Yên'}}
+INFO:     192.168.10.144:65154 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'Dân tộc': 'Kinh', 'Tôn giáo': 'Không', 'Dấu vết riêng và dị hình': 'Sẹo chấm c.2cm dưới sau mép phải', 'Ngày làm CMND': 'Ngày...03.. tháng...06.năm..2016', 'Giám đốc CA': 'Tỉnh Bắc Ninh'}
+temp: {}
+out: {'additionalProp1': {'pi': 'Sẹo chấm c.2cm dưới sau mép phải', 'dop': 'Ngày...03.. tháng...06.năm..2016', 'poi': 'Tỉnh Bắc Ninh'}}
+INFO:     192.168.10.144:59875 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+temp: {}
+out: {'additionalProp1': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}}
+INFO:     192.168.10.144:54589 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Đặc điểm nhận dạng / Personal identification': 'Seo chậm cách 1cm dưới sau giói mắt trái', 'Ngày, tháng, năm / Date, month, year': '/06/2021', 'Địa điểm làm CMND': 'CỤC TRƯỞNG CỤC CẢNH SẮT QUẢN LÝ HÀNH CHÍNH VỀ TRẬT TỰ XÃ HỘI DIRECTOR GENERAL OF THE POLICE OEPARTMENT'}
+temp: {}
+out: {'additionalProp1': {'pi': 'Seo chậm cách 1cm dưới sau giói mắt trái', 'dop': '/06/2021'}}
+INFO:     192.168.10.144:54222 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:50561 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:47236 - "POST /detection HTTP/1.1" 200 OK
+INFO:     167.248.133.62:37830 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     123.24.206.26:50784 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+temp: {}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}}
+INFO:     123.24.206.26:63559 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:37210 - "GET /docs HTTP/1.1" 200 OK
+INFO:     123.24.206.26:37210 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     123.24.206.26:46309 - "GET /docs HTTP/1.1" 200 OK
+INFO:     123.24.206.26:46309 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     123.24.206.26:57796 - "OPTIONS /detection1 HTTP/1.1" 200 OK
+INFO:     123.24.206.26:58947 - "POST /detection1 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 227, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 159, in run_endpoint_function
+    return await dependant.call(**values)
+  File "main_OCR_H.py", line 168, in predict_api
+    # end_time = time.time()
+  File "../tools/run.py", line 163, in startC
+    img = self.remove_unnecessary_part(type, img)
+  File "../modules/pre_processing/remove_unnecessary_part.py", line 15, in __call__
+    h, w, c = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+INFO:     123.24.206.26:52197 - "POST /detection1 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 227, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 159, in run_endpoint_function
+    return await dependant.call(**values)
+  File "main_OCR_H.py", line 168, in predict_api
+    # end_time = time.time()
+  File "../tools/run.py", line 163, in startC
+    img = self.remove_unnecessary_part(type, img)
+  File "../modules/pre_processing/remove_unnecessary_part.py", line 15, in __call__
+    h, w, c = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+INFO:     123.24.206.26:39014 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:43089 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:37790 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:51785 - "POST /detection1 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 227, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 159, in run_endpoint_function
+    return await dependant.call(**values)
+  File "main_OCR_H.py", line 168, in predict_api
+    # end_time = time.time()
+  File "../tools/run.py", line 163, in startC
+    img = self.remove_unnecessary_part(type, img)
+  File "../modules/pre_processing/remove_unnecessary_part.py", line 15, in __call__
+    h, w, c = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+INFO:     123.24.206.26:63202 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:42150 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:55414 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:52557 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:51828 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:49444 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:55841 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:53033 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:60778 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:62108 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:40790 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:63443 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:34958 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:56754 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:56549 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:46261 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:55360 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:46027 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:37777 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:41611 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:34540 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': '745/866666', 'Họ tên': 'NGUYỄN HỒNG ANH', 'Sinh ngày': '21-05-1995', 'Nguyên quán': 'Phu Lâm Hà Đông, Hà Nội 111', 'Nơi ĐKHK thường trú': 'Phu Làm Ha Đông, Hà Nội'}
+temp: {}
+out: {'data': {'id_card': '745/866666', 'name': 'NGUYỄN HỒNG ANH', 'dob': '21-05-1995', 'poo': 'Phu Lâm Hà Đông, Hà Nội 111', 'por': 'Phu Làm Ha Đông, Hà Nội'}}
+INFO:     123.24.206.26:58406 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:54299 - "OPTIONS /detection1 HTTP/1.1" 200 OK
+Quản lý văn bản pháp lý
+goolly
+Tìm kiếm.
+CUC CÔNG NGHIỆ THÔNG TIN
+TRANG CHỦ LỊCH CÔNG TÁC
+ĐIỀU HÀNH TÁC NGHIỆP
+ĐĂNG XUẤT
+Pháo phân lực Mỹ thắp hy vọng cho quân đội Ukraine
+Thế khó của ông Biden trong đối phó bạo lực súng đạn Mỹ
+Vụ xã súng 'thêm d
+Tin mới:
+Trang chủ X Chi tiết văn bản pháp luật
+1744/QĐ-BCA
+Lượt xem:24
+Thông tư 082022/TT-8KHON về định mức kinh tế - kỹ thuật lập, thẩm định, công bố, điều chính quy hoạch phát triển, úng dụng năng l
+Bộ trưởng Bộ Khoa học và Công nghệ ban hành
+Số ký hiệu
+1744/QĐ-BCA
+Ngày ban hành
+29/07/2022
+Quyết định
+29/07/2022
+Loại văn bản
+Ngày có hiệu lực
+Lĩnh vực
+Công nghệ thông tin
+Trạng thái
+Đang có hiệu lực
+Cơ quan ban hành
+Bộ Công An
+Người ký
+File đính kèm (5 files)
+Lượt tải: 12
+H05 HDSD Quân trị-20220223154628.docx
+H05 HDSD Quản trị-20220223154628.docx
+Góp ý cho văn bản
+Họ tên
+Email
+Tiêu đề
+Nội dung
+2308
+Gữi
+CỤC CÔNG NGHỆ THÔNG TIN
+Bản quyền phần mềm: cục công nghệ thông tin
+Địa chi: 80 Trần Quốc Hoàn - Quận Cầu Giấy - Hà Nội
+Điện thoại: 06947811 - Fax 069234750
+0
+Điện thoại
+INFO:     123.24.206.26:60764 - "POST /detection1 HTTP/1.1" 200 OK

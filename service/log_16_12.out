@@ -1,0 +1,369 @@
+INFO:     Started server process [1367063]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:18083 (Press CTRL+C to quit)
+INFO:     123.24.206.26:52505 - "GET /docs HTTP/1.1" 200 OK
+INFO:     123.24.206.26:52505 - "GET /openapi.json HTTP/1.1" 200 OK
+--------------------------------
+abt
+res: ['VGP P. công " năm đến từ chính phủ"', 'Ký bởi: Cổng Thông tin điện tử Chính phủ', 'Cơ quan: Vấn phòng Chính phủ', 'Thời gian ký: 12.12.2019 16:30:25 407:00', 'CÔNG THỐNG TIN ĐIỆN TỪ CHÍNH PHỦ', 'QUỐC HỘI', 'CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM', 'Độc lập - Tự do - Hạnh phúc', 'Luật số: 50/2019/QH14', 'LUẬT', 'SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT QUẢN LÝ,', 'SỬ DỤNG VŨ KHÍ, VẬT LIỆU NỔ VÀ CÔNG CỤ HỖ TRỢ', 'Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;', 'Quốc hội ban hành Luật sửa đổi, bổ sung một số điều của Luật Quản lý;', 'sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ số 14/2017/QH14.', 'Điều 1. Sửa đổi, bổ sung một số điều của Luật Quản lý, sử dụng vũ khí,', 'vật liệu nổ và công cụ hỗ trợ', '1. Sửa đổi, bổ sung một số khoản của Điều 3 như sau:', 'a) Sửa đổi, bổ sung khoản 2 như sau:', '(2. Vũ khi quân dụng bao gồm:', 'a) Vũ khí được chế tạo, sản xuất bảo đảm tiêu chuẩn kỹ thuật, thiết kế của', 'nhà sản xuất hợp pháp, được trang bị cho lực lượng vũ trang nhân dân và các', 'lực lượng khác theo quy định của Luật này để thi hành công vụ, bao gồm:', 'Súng cầm tay: súng ngắn, súng trường, súng tiểu liên, súng trung liên,', 'súng chống tăng, súng phóng lựu;', 'Vũ khí hạng nhẹ: súng đại liên, súng cối, súng ĐKZ, súng máy phòng không,', 'tên lửa chống tăng cá nhân;', 'Vũ khí hạng nặng: máy bay chiến đấu, trực thăng vũ trang, xe tăng, xe thiết giáp,', 'tàu chiến, tàu ngầm, pháo mặt đất, pháo phòng không, tên lửa;', 'Bom, mìn, lựu đạn, ngư lôi, thủy lôi; đạn sử dụng cho các loại vũ khí quy định', 'tại điểm này;', 'b) Vũ khí được chế tạo, sản xuất thủ công hoặc công nghiệp, không theo tiêu chuẩn', 'kỹ thuật, thiết kế của nhà sản xuất hợp pháp, có khả năng gây sát thương, nguy hại', 'cho tính mạng, sức khỏe của con người, phá hủy kết cấu vật chất tương tự như vũ khí', 'quy định tại điểm a khoản này, không được trang bị cho lực lượng vũ trang nhân dân', 'và các lực lượng khác quy định tại Điều 18 của Luật này để thi hành công vụ..";;', 'b) Sửa đổi, bổ sung khoản 6 như sau:', '?6. Vũ khi có tính năng, tác dụng tương tự súng săn, vũ khí thô sơ, vũ khi thể thao', 'là vũ khí được chế tạo, sản xuất thủ công hoặc công nghiệp, không theo tiêu chuẩn', 'kỹ thuật, thiết kế của nhà sản xuất hợp pháp, có khả năng gây sát thương, nguy hại']
+temp: {'text': ['VGP P. công " năm đến từ chính phủ"', 'Ký bởi: Cổng Thông tin điện tử Chính phủ', 'Cơ quan: Vấn phòng Chính phủ', 'Thời gian ký: 12.12.2019 16:30:25 407:00', 'CÔNG THỐNG TIN ĐIỆN TỪ CHÍNH PHỦ', 'QUỐC HỘI', 'CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM', 'Độc lập - Tự do - Hạnh phúc', 'Luật số: 50/2019/QH14', 'LUẬT', 'SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT QUẢN LÝ,', 'SỬ DỤNG VŨ KHÍ, VẬT LIỆU NỔ VÀ CÔNG CỤ HỖ TRỢ', 'Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;', 'Quốc hội ban hành Luật sửa đổi, bổ sung một số điều của Luật Quản lý;', 'sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ số 14/2017/QH14.', 'Điều 1. Sửa đổi, bổ sung một số điều của Luật Quản lý, sử dụng vũ khí,', 'vật liệu nổ và công cụ hỗ trợ', '1. Sửa đổi, bổ sung một số khoản của Điều 3 như sau:', 'a) Sửa đổi, bổ sung khoản 2 như sau:', '(2. Vũ khi quân dụng bao gồm:', 'a) Vũ khí được chế tạo, sản xuất bảo đảm tiêu chuẩn kỹ thuật, thiết kế của', 'nhà sản xuất hợp pháp, được trang bị cho lực lượng vũ trang nhân dân và các', 'lực lượng khác theo quy định của Luật này để thi hành công vụ, bao gồm:', 'Súng cầm tay: súng ngắn, súng trường, súng tiểu liên, súng trung liên,', 'súng chống tăng, súng phóng lựu;', 'Vũ khí hạng nhẹ: súng đại liên, súng cối, súng ĐKZ, súng máy phòng không,', 'tên lửa chống tăng cá nhân;', 'Vũ khí hạng nặng: máy bay chiến đấu, trực thăng vũ trang, xe tăng, xe thiết giáp,', 'tàu chiến, tàu ngầm, pháo mặt đất, pháo phòng không, tên lửa;', 'Bom, mìn, lựu đạn, ngư lôi, thủy lôi; đạn sử dụng cho các loại vũ khí quy định', 'tại điểm này;', 'b) Vũ khí được chế tạo, sản xuất thủ công hoặc công nghiệp, không theo tiêu chuẩn', 'kỹ thuật, thiết kế của nhà sản xuất hợp pháp, có khả năng gây sát thương, nguy hại', 'cho tính mạng, sức khỏe của con người, phá hủy kết cấu vật chất tương tự như vũ khí', 'quy định tại điểm a khoản này, không được trang bị cho lực lượng vũ trang nhân dân', 'và các lực lượng khác quy định tại Điều 18 của Luật này để thi hành công vụ..";;', 'b) Sửa đổi, bổ sung khoản 6 như sau:', '?6. Vũ khi có tính năng, tác dụng tương tự súng săn, vũ khí thô sơ, vũ khi thể thao', 'là vũ khí được chế tạo, sản xuất thủ công hoặc công nghiệp, không theo tiêu chuẩn', 'kỹ thuật, thiết kế của nhà sản xuất hợp pháp, có khả năng gây sát thương, nguy hại']}
+out: {'additionalProp1': {'text': ['VGP P. công " năm đến từ chính phủ"', 'Ký bởi: Cổng Thông tin điện tử Chính phủ', 'Cơ quan: Vấn phòng Chính phủ', 'Thời gian ký: 12.12.2019 16:30:25 407:00', 'CÔNG THỐNG TIN ĐIỆN TỪ CHÍNH PHỦ', 'QUỐC HỘI', 'CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM', 'Độc lập - Tự do - Hạnh phúc', 'Luật số: 50/2019/QH14', 'LUẬT', 'SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT QUẢN LÝ,', 'SỬ DỤNG VŨ KHÍ, VẬT LIỆU NỔ VÀ CÔNG CỤ HỖ TRỢ', 'Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;', 'Quốc hội ban hành Luật sửa đổi, bổ sung một số điều của Luật Quản lý;', 'sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ số 14/2017/QH14.', 'Điều 1. Sửa đổi, bổ sung một số điều của Luật Quản lý, sử dụng vũ khí,', 'vật liệu nổ và công cụ hỗ trợ', '1. Sửa đổi, bổ sung một số khoản của Điều 3 như sau:', 'a) Sửa đổi, bổ sung khoản 2 như sau:', '(2. Vũ khi quân dụng bao gồm:', 'a) Vũ khí được chế tạo, sản xuất bảo đảm tiêu chuẩn kỹ thuật, thiết kế của', 'nhà sản xuất hợp pháp, được trang bị cho lực lượng vũ trang nhân dân và các', 'lực lượng khác theo quy định của Luật này để thi hành công vụ, bao gồm:', 'Súng cầm tay: súng ngắn, súng trường, súng tiểu liên, súng trung liên,', 'súng chống tăng, súng phóng lựu;', 'Vũ khí hạng nhẹ: súng đại liên, súng cối, súng ĐKZ, súng máy phòng không,', 'tên lửa chống tăng cá nhân;', 'Vũ khí hạng nặng: máy bay chiến đấu, trực thăng vũ trang, xe tăng, xe thiết giáp,', 'tàu chiến, tàu ngầm, pháo mặt đất, pháo phòng không, tên lửa;', 'Bom, mìn, lựu đạn, ngư lôi, thủy lôi; đạn sử dụng cho các loại vũ khí quy định', 'tại điểm này;', 'b) Vũ khí được chế tạo, sản xuất thủ công hoặc công nghiệp, không theo tiêu chuẩn', 'kỹ thuật, thiết kế của nhà sản xuất hợp pháp, có khả năng gây sát thương, nguy hại', 'cho tính mạng, sức khỏe của con người, phá hủy kết cấu vật chất tương tự như vũ khí', 'quy định tại điểm a khoản này, không được trang bị cho lực lượng vũ trang nhân dân', 'và các lực lượng khác quy định tại Điều 18 của Luật này để thi hành công vụ..";;', 'b) Sửa đổi, bổ sung khoản 6 như sau:', '?6. Vũ khi có tính năng, tác dụng tương tự súng săn, vũ khí thô sơ, vũ khi thể thao', 'là vũ khí được chế tạo, sản xuất thủ công hoặc công nghiệp, không theo tiêu chuẩn', 'kỹ thuật, thiết kế của nhà sản xuất hợp pháp, có khả năng gây sát thương, nguy hại']}}
+INFO:     123.24.206.26:38279 - "POST /detection HTTP/1.1" 200 OK
+INFO:     162.142.125.7:55514 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+INFO:     123.24.206.26:54057 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cccd
+res: {'id': '', 'Họ và tên': 'Citizen Identity Card S61N0.010200003218', 'Ngày, tháng, năm sinh': '', 'Giới tính': 'Họ và tên I Full name', 'Quốc tịch': '', 'Quê quán': 'VŨ ĐỨC THẮNG Ngày sinh / Date of birth 18/09/2000', 'Nơi thường trú': 'Giới tính/ Sex Nam Quốc tịch / Nationality Việt Nam Quê quán I Place of origin', 'Có giá trị đến': ''}
+temp: {'id_card': '', 'name': 'Citizen Identity Card S61N0.010200003218', 'dob': '', 'sex': 'Họ và tên I Full name', 'nationality': '', 'poo': 'VŨ ĐỨC THẮNG Ngày sinh / Date of birth 18/09/2000', 'por': 'Giới tính/ Sex Nam Quốc tịch / Nationality Việt Nam Quê quán I Place of origin', 'doe': ''}
+out: {'data': {'id_card': '', 'name': 'Citizen Identity Card S61N0.010200003218', 'dob': '', 'sex': 'Họ và tên I Full name', 'nationality': '', 'poo': 'VŨ ĐỨC THẮNG Ngày sinh / Date of birth 18/09/2000', 'por': 'Giới tính/ Sex Nam Quốc tịch / Nationality Việt Nam Quê quán I Place of origin', 'doe': ''}}
+INFO:     123.24.206.26:62827 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:40062 - "POST /detection HTTP/1.1" 422 Unprocessable Entity
+INFO:     123.24.206.26:35536 - "POST /detection HTTP/1.1" 422 Unprocessable Entity
+INFO:     123.24.206.26:35254 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:59218 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:60457 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:47102 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:56287 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:39075 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:48486 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:44360 - "OPTIONS /detection1 HTTP/1.1" 200 OK
+INFO:     123.24.206.26:34905 - "POST /detection1 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 227, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 159, in run_endpoint_function
+    return await dependant.call(**values)
+  File "main_OCR_H.py", line 202, in predict_api
+    res = pipeline.startC(img, type, "../output")
+  File "../tools/run.py", line 206, in startC
+    img = self.remove_unnecessary_part(type, img)
+  File "../modules/pre_processing/remove_unnecessary_part.py", line 15, in __call__
+    h, w, c = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+INFO:     123.24.206.26:58775 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:64723 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:35956 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:51119 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:50554 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:55242 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:51445 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:52989 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:37181 - "POST /detection HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     111.7.96.148:12140 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.35.128:48198 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:23782 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.116.89:55714 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.36.231:56846 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.55.120:36596 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.33.65:24170 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.35.128:48436 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:23942 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.35.128:48526 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:24278 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.36.231:57178 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.121.69:23464 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.116.89:56020 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.34.187:41786 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.121.69:24052 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.36.112:43212 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.122.184:33006 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.41.193:40710 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.41.193:40556 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.33.65:24170 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:24278 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:23782 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:23942 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.116.89:55714 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.121.69:24052 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.121.69:23464 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.116.89:56020 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.35.128:48198 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.35.128:48436 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.35.128:48526 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.122.184:33006 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.41.193:40710 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.41.193:40556 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.36.231:56846 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.36.231:57178 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.34.187:41786 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:27172 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.121.69:27124 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.36.112:43212 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:27172 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.121.69:27124 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.55.120:36596 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.116.25:47060 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.116.25:47060 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:29758 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.141.51.222:29758 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.121.69:30754 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.121.69:30754 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     205.185.116.89:31284 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.185.116.89:31284 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.248.133.63:37916 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+INFO:     123.24.206.26:37711 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:41298 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:34840 - "OPTIONS /detection1 HTTP/1.1" 200 OK
+INFO:     123.24.206.26:39315 - "POST /detection1 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 375, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 227, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/fastapi/routing.py", line 159, in run_endpoint_function
+    return await dependant.call(**values)
+  File "main_OCR_H.py", line 202, in predict_api
+    res = pipeline.startC(img, type, "../output")
+  File "../tools/run.py", line 206, in startC
+    img = self.remove_unnecessary_part(type, img)
+  File "../modules/pre_processing/remove_unnecessary_part.py", line 15, in __call__
+    h, w, c = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+INFO:     123.24.206.26:54484 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cccd
+res: {'id': '', 'Họ và tên': 'Citizen Identity Card S61N0.010200003218', 'Ngày, tháng, năm sinh': '', 'Giới tính': 'Họ và tên I Full name', 'Quốc tịch': '', 'Quê quán': 'VŨ ĐỨC THẮNG Ngày sinh / Date of birth 18/09/2000', 'Nơi thường trú': 'Giới tính/ Sex Nam Quốc tịch / Nationality Việt Nam Quê quán I Place of origin', 'Có giá trị đến': ''}
+temp: {'id_card': '', 'name': 'Citizen Identity Card S61N0.010200003218', 'dob': '', 'sex': 'Họ và tên I Full name', 'nationality': '', 'poo': 'VŨ ĐỨC THẮNG Ngày sinh / Date of birth 18/09/2000', 'por': 'Giới tính/ Sex Nam Quốc tịch / Nationality Việt Nam Quê quán I Place of origin', 'doe': ''}
+out: {'data': {'id_card': '', 'name': 'Citizen Identity Card S61N0.010200003218', 'dob': '', 'sex': 'Họ và tên I Full name', 'nationality': '', 'poo': 'VŨ ĐỨC THẮNG Ngày sinh / Date of birth 18/09/2000', 'por': 'Giới tính/ Sex Nam Quốc tịch / Nationality Việt Nam Quê quán I Place of origin', 'doe': ''}}
+INFO:     123.24.206.26:34128 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:63318 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+temp: {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}}
+INFO:     123.24.206.26:42543 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+temp: {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}}
+INFO:     123.24.206.26:40923 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+temp: {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}}
+INFO:     123.24.206.26:53386 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+temp: {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}}
+INFO:     123.24.206.26:54739 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+temp: {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}}
+INFO:     123.24.206.26:54345 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:65215 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cccd
+res: {'id': '', 'Họ và tên': 'Citizen Identity Card S61N0.010200003218', 'Ngày, tháng, năm sinh': '', 'Giới tính': 'Họ và tên I Full name', 'Quốc tịch': '', 'Quê quán': 'VŨ ĐỨC THẮNG Ngày sinh / Date of birth 18/09/2000', 'Nơi thường trú': 'Giới tính/ Sex Nam Quốc tịch / Nationality Việt Nam Quê quán I Place of origin', 'Có giá trị đến': ''}
+temp: {'id_card': '', 'name': 'Citizen Identity Card S61N0.010200003218', 'dob': '', 'sex': 'Họ và tên I Full name', 'nationality': '', 'poo': 'VŨ ĐỨC THẮNG Ngày sinh / Date of birth 18/09/2000', 'por': 'Giới tính/ Sex Nam Quốc tịch / Nationality Việt Nam Quê quán I Place of origin', 'doe': ''}
+out: {'data': {'id_card': '', 'name': 'Citizen Identity Card S61N0.010200003218', 'dob': '', 'sex': 'Họ và tên I Full name', 'nationality': '', 'poo': 'VŨ ĐỨC THẮNG Ngày sinh / Date of birth 18/09/2000', 'por': 'Giới tính/ Sex Nam Quốc tịch / Nationality Việt Nam Quê quán I Place of origin', 'doe': ''}}
+INFO:     123.24.206.26:48674 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+temp: {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}}
+INFO:     123.24.206.26:37376 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '010200003218', 'Quê quán / Place of origin': 'Chân Lý, Lý Nhân, Hà Nam', 'Ngày sinh / Date of birth': '18/09/2000', 'Họ và tên / Full name': 'VŨ ĐỨC THẮNG', 'Nơi thường trú / Place of residence': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'Có giá trị đến / Date of expiry': '18/09/2025'}
+temp: {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '010200003218', 'poo': 'Chân Lý, Lý Nhân, Hà Nam', 'dob': '18/09/2000', 'name': 'VŨ ĐỨC THẮNG', 'por': 'Kim Tân, Thành phố Lào Cai, Lào Cai 5', 'doe': '18/09/2025'}}
+INFO:     123.24.206.26:41564 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:46567 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccd
+res: {'Đặc điểm nhận dạng': 'Sẹo thẳng 2cm cách 1cm trên đuôi mắt tái', 'Ngày làm CMND': 'CỤC TRƯỞNG CỤC CẢNH SÁT', 'Địa điểm làm CMND': 'ĐKQL CƯ TRÚ VÀ DLOG VỀ DÂN CỰ'}
+temp: {'pi': 'Sẹo thẳng 2cm cách 1cm trên đuôi mắt tái', 'dop': 'CỤC TRƯỞNG CỤC CẢNH SÁT'}
+out: {'data': {'pi': 'Sẹo thẳng 2cm cách 1cm trên đuôi mắt tái', 'dop': 'CỤC TRƯỞNG CỤC CẢNH SÁT'}}
+INFO:     123.24.206.26:36165 - "POST /detection HTTP/1.1" 200 OK
+INFO:     167.248.133.63:54148 - "GET / HTTP/1.1" 404 Not Found
+../modules/ocr/text_classifier.py:122: RuntimeWarning: invalid value encountered in true_divide
+  char_probs = np.sum(char_probs, axis=-1) / (char_probs > 0).sum(-1)
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+INFO:     123.24.206.26:37825 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '040200000589', 'Quê quán / Place of origin': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'Ngày sinh / Date of birth': '18/03/2000', 'Họ và tên / Full name': 'NGUYỄN NGỌC HUY ', 'Nơi thường trú / Place of residence': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'Có giá trị đến / Date of expiry': '18/03/2025'}
+temp: {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '040200000589', 'poo': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'dob': '18/03/2000', 'name': 'NGUYỄN NGỌC HUY ', 'por': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'doe': '18/03/2025'}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '040200000589', 'poo': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'dob': '18/03/2000', 'name': 'NGUYỄN NGỌC HUY ', 'por': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'doe': '18/03/2025'}}
+INFO:     123.24.206.26:50834 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '040200000589', 'Quê quán / Place of origin': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'Ngày sinh / Date of birth': '18/03/2000', 'Họ và tên / Full name': 'NGUYỄN NGỌC HUY ', 'Nơi thường trú / Place of residence': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'Có giá trị đến / Date of expiry': '18/03/2025'}
+temp: {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '040200000589', 'poo': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'dob': '18/03/2000', 'name': 'NGUYỄN NGỌC HUY ', 'por': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'doe': '18/03/2025'}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '040200000589', 'poo': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'dob': '18/03/2000', 'name': 'NGUYỄN NGỌC HUY ', 'por': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'doe': '18/03/2025'}}
+INFO:     123.24.206.26:40435 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:47557 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '040200000589', 'Quê quán / Place of origin': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'Ngày sinh / Date of birth': '18/03/2000', 'Họ và tên / Full name': 'NGUYỄN NGỌC HUY ', 'Nơi thường trú / Place of residence': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'Có giá trị đến / Date of expiry': '18/03/2025'}
+temp: {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '040200000589', 'poo': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'dob': '18/03/2000', 'name': 'NGUYỄN NGỌC HUY ', 'por': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'doe': '18/03/2025'}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '040200000589', 'poo': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'dob': '18/03/2000', 'name': 'NGUYỄN NGỌC HUY ', 'por': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'doe': '18/03/2025'}}
+INFO:     123.24.206.26:43549 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:41939 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '040200000589', 'Quê quán / Place of origin': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'Ngày sinh / Date of birth': '18/03/2000', 'Họ và tên / Full name': 'NGUYỄN NGỌC HUY ', 'Nơi thường trú / Place of residence': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'Có giá trị đến / Date of expiry': '18/03/2025'}
+temp: {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '040200000589', 'poo': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'dob': '18/03/2000', 'name': 'NGUYỄN NGỌC HUY ', 'por': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'doe': '18/03/2025'}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '040200000589', 'poo': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'dob': '18/03/2000', 'name': 'NGUYỄN NGỌC HUY ', 'por': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'doe': '18/03/2025'}}
+INFO:     123.24.206.26:35800 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:61260 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cccc
+ 
+res: {'Quốc tịch / Nationality': 'Việt Nam', 'Giới tính / Sex': 'Nam', 'Số / No': '040200000589', 'Quê quán / Place of origin': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'Ngày sinh / Date of birth': '18/03/2000', 'Họ và tên / Full name': 'NGUYỄN NGỌC HUY ', 'Nơi thường trú / Place of residence': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'Có giá trị đến / Date of expiry': '18/03/2025'}
+temp: {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '040200000589', 'poo': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'dob': '18/03/2000', 'name': 'NGUYỄN NGỌC HUY ', 'por': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'doe': '18/03/2025'}
+out: {'data': {'nationality': 'Việt Nam', 'sex': 'Nam', 'id_card': '040200000589', 'poo': 'Thị trấn yên thành, yên thành, nghệ an Khối Tây Hồ 1', 'dob': '18/03/2000', 'name': 'NGUYỄN NGỌC HUY ', 'por': 'Quang Tiến, Thị xã Thái Hoà, Nghệ An', 'doe': '18/03/2025'}}
+INFO:     123.24.206.26:51722 - "POST /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: {'id': '145064321', 'Họ tên': 'NGUYỄN BẢO NGỌC', 'Sinh ngày': '07-09-1983', 'Nguyên quán': 'Bình Minh Khoái Châu, Hưng Yên', 'Nơi ĐKHK thường trú': 'Bình Minh Khoái Châu, Hưng Yên'}
+temp: {'id_card': '145064321', 'name': 'NGUYỄN BẢO NGỌC', 'dob': '07-09-1983', 'poo': 'Bình Minh Khoái Châu, Hưng Yên', 'por': 'Bình Minh Khoái Châu, Hưng Yên'}
+out: {'data': {'id_card': '145064321', 'name': 'NGUYỄN BẢO NGỌC', 'dob': '07-09-1983', 'poo': 'Bình Minh Khoái Châu, Hưng Yên', 'por': 'Bình Minh Khoái Châu, Hưng Yên'}}
+INFO:     123.24.206.26:39215 - "POST /detection HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     167.94.138.46:53780 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.46:55682 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+INFO:     123.24.206.26:56580 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:37307 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:35359 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:40086 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:60372 - "POST /detection HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+INFO:     162.142.125.213:54154 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.142.125.213:37296 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/home/ai-r-d/anaconda3/lib/python3.7/site-packages/uvicorn/protocols/http/httptools_impl.py", line 131, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+INFO:     123.24.206.26:43690 - "OPTIONS /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:44941 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:39957 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:49204 - "POST /detection HTTP/1.1" 200 OK
+INFO:     123.24.206.26:62336 - "OPTIONS /detection HTTP/1.1" 200 OK
+--------------------------------
+cmnd
+res: NOT FOUND
+temp: {}
+out: {'data': {}}
+INFO:     123.24.206.26:48982 - "POST /detection HTTP/1.1" 200 OK

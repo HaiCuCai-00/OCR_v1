@@ -1,0 +1,48 @@
+{
+    "Tên ông": [
+    	["Ông", "Năm sinh"]
+	],
+    "Năm sinh ông": [
+	    ["Năm sinh", ["CMND số", "CCCD số"]]
+	],
+    "require_Năm sinh ông": [
+	    "Tên ông"
+	],
+    "id ông": [
+	    [["CMND số", "CCCD số"], "Địa chỉ thường trú"],
+	    [["CMND số", "CCCD số"], "Địa chỉ"]
+	],
+    "require_id ông": [
+	    "Tên ông"
+	],
+    "Địa chỉ ông": [
+	    ["Địa chỉ thường trú", ["Bà", "EOF"]],
+	    ["Địa chỉ", ["Bà", "EOF"]]
+	],
+    "require_Địa chỉ ông": [
+	    "Tên ông"
+	],
+    "Tên bà": [
+	    ["Bà", "Năm sinh"]
+	],
+    "Năm sinh bà": [
+	    ["Năm sinh", ["CMND số", "CCCD số"]]
+	],
+    "require_Năm sinh bà": [
+	    "Tên bà"
+	],
+    "id bà": [
+	    [["CMND số", "CCCD số"], "Địa chỉ thường trú"],
+	    [["CMND số", "CCCD số"], "Địa chỉ"]
+	],
+    "require_id bà": [
+	    "Tên bà"
+	],
+    "Địa chỉ bà": [
+	    ["Địa chỉ thường trú", "EOF"],
+	    ["Địa chỉ", "EOF"]
+	],
+    "require_Địa chỉ bà": [
+	    "Tên bà"
+	]
+}

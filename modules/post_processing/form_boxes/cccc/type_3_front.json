@@ -1,0 +1,198 @@
+{
+    "size": [
+        627,
+        999
+    ],
+    "data": {
+        "Quốc tịch / Nationality": [
+            [
+                821,
+                431,
+                978,
+                468
+            ]
+        ],
+        "Giới tính / Sex": [
+            [
+                472,
+                430,
+                552,
+                464
+            ]
+        ],
+        "Số / No": [
+            [
+                412,
+                260,
+                752,
+                310
+            ] 
+        ],
+        "Quê quán / Place of origin": [
+            [
+                587,
+                473,
+                979,
+                509
+            ],
+            [
+                301,
+                508,
+                979,
+                544
+            ]
+        ],
+        "Ngày sinh / Date of birth": [
+            [
+                583,
+                396,
+                752,
+                431
+            ]
+        ],
+        "Họ và tên / Full name": [
+            [
+                306,
+                349,
+                851,
+                391
+            ]
+        ],
+        "Nơi thường trú / Place of residence": [
+            [
+                688,
+                547,
+                982,
+                582
+            ],
+            [
+                303,
+                577,
+                981,
+                620
+            ]
+        ],
+        "Có giá trị đến / Date of expiry": [
+            [
+                160,
+                564,
+                292,
+                594
+            ]
+        ]
+    },
+    "label": {
+        "Quốc tịch / Nationality": [
+            [
+                565,
+                435,
+                809,
+                467
+            ]
+        ],
+        "Độc lập - Tự do - Hạnh phúc": [
+            [
+                409,
+                63,
+                673,
+                89
+            ]
+        ],
+        "Nơi thường trú / Place of residence": [
+            [
+                298,
+                543,
+                683,
+                573
+            ]
+        ],
+        "Họ và tên / Full name": [
+            [
+                300,
+                314,
+                537,
+                345
+            ]
+        ],
+        "Có giá trị đến / Date of expiry": [
+            [
+                24,
+                555,
+                162,
+                603
+            ]
+        ],
+        "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM": [
+            [
+                302,
+                30,
+                777,
+                64
+            ]
+        ],
+        "Số / No": [
+            [
+                298,
+                266,
+                386,
+                304
+            ]
+        ],
+        "Citizen Identity Card": [
+            [
+                301,
+                213,
+                515,
+                243
+            ]
+        ],
+        "Quê quán / Place of origin": [
+            [
+                299,
+                473,
+                581,
+                509
+            ]
+        ],
+        "Ngày sinh / Date of birth": [
+            [
+                297,
+                392,
+                565,
+                421
+            ]
+        ],
+        "Giới tính / Sex": [
+            [
+                297,
+                434,
+                463,
+                462
+            ]
+        ],
+        "Independence - Freedom - Happiness": [
+            [
+                376,
+                112,
+                701,
+                139
+            ]
+        ],
+        "SOCIALIST REPUBLIC OF VIET NAM": [
+            [
+                374,
+                91,
+                708,
+                114
+            ]
+        ],
+        "CĂN CƯỚC CÔNG DÂN": [
+            [
+                301,
+                146,
+                782,
+                196
+            ]
+        ]
+    }
+}

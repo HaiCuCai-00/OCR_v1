@@ -1,0 +1,65 @@
+{
+    "Tên công ty viết bằng tiếng Việt": [
+	    ["Tên công ty viết bằng tiếng Việt", "Tên công ty viết bằng tiếng nước ngoài"]
+	],
+    "Tên công ty viết bằng tiếng nước ngoài": [
+	    ["Tên công ty viết bằng tiếng nước ngoài", "Tên công ty viết tắt"]
+	],
+    "Tên công ty viết tắt": [
+	    ["Tên công ty viết tắt", "2. Địa chỉ trụ sở chính"]
+	],
+    "Địa chỉ trụ sở chính": [
+	    ["2. Địa chỉ trụ sở chính", "Điện thoại"]
+	],
+    "Điện thoại": [
+	    ["Điện thoại", "Fax"]
+	],
+    "Email": [
+	    ["Email", "Website"]
+	],
+    "Website": [
+	    ["Website", "3. Vốn điều lệ"]
+	],
+    "Vốn điều lệ": [
+	    ["Vốn điều lệ Vốn điều lệ", "Bằng chữ"],
+	    ["Vốn điều lệ", "Bằng chữ"]
+	],
+    "Họ và tên": [
+	    ["Họ và tên", "Giới tính"]
+	],
+    "Mã số doanh nghiệp": [
+		["Mã số doanh nghiệp", "Đăng ký lần đầu"],
+		["MSDN", "1. Tên công ty"]
+	],
+    "Đăng ký lần đầu": [
+		["Đăng ký lần đầu", "Doanh nghiệp được tách từ doanh nghiệp"],
+	    ["Đăng ký lần đầu", "1. Tên công ty"]
+	],
+    "Giới tính": [
+		["Giới tính", "Chức danh"]
+	],
+    "Chức danh": [
+	    ["Chức danh", "Sinh ngày"]
+	],
+    "Sinh ngày": [
+		["Sinh ngày", "Dân tộc"]
+	],
+	"Dân tộc": [
+		["Dân tộc", "Quốc tịch"]
+	],
+    "Quốc tịch": [
+	    ["Quốc tịch", "Loại giấy tờ pháp lý của cá nhân"]
+	],
+    "Loại giấy tờ pháp lý của cá nhân": [
+	    ["Loại giấy tờ pháp lý của cá nhân", "Số giấy tờ pháp lý của cá nhân"]
+	],
+    "Ngày cấp": [
+	    ["Ngày cấp", "Nơi cấp"]
+	],
+    "Địa chỉ thường trú": [
+	    ["Địa chỉ thường trú", "Địa chỉ liên lạc"]
+	],
+    "Địa chỉ liên lạc": [
+	    ["Địa chỉ liên lạc", "TRƯỞNG PHÒNG"]
+	]
+}
